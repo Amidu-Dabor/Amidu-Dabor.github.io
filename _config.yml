@@ -14,15 +14,15 @@ email: daboramidu93@gmail.com
 description: >-
   Results-driven Software & AI/ML Engineer with 3+ years of experience building intelligent, scalable, and ethical software solutions in generative AI, data science, cloud computing, and backend development. I specialize in tools like Python, R, HTML, CSS, JavaScript, TensorFlow, Hugging Face, LangChain, Azure, AWS, Modal, Weights & Biases, and Gradio to deliver real-world impact and innovation.
 github_username: Amidu-Dabor
-minimal_mistakes_skin: air # Professional, clean look with great typography
+minimal_mistakes_skin: air # Professional, clean theme with strong typography
 search: true
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
-permalink: /:projects/:title/
-paginate: 5 # amount of posts to show
+permalink: /:title/
+paginate: 5
 paginate_path: /page:num/
 timezone: Africa/Nairobi
 
@@ -99,7 +99,7 @@ defaults:
 
 category_archive:
   type: liquid
-  path: /projects/
+  path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
