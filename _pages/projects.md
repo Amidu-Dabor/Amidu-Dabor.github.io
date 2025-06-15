@@ -17,28 +17,28 @@ A showcase of AI/ML, data science, and business intelligence projects demonstrat
 ### 🏨 Business Intelligence Dashboard – Hotel Management  
 Developed a hotel analytics dashboard in Power BI using the AtliQ Grands dataset, enabling insights for operational decision-making.  
 **Skills:** Power BI, Power Query, DAX, Data Modeling, Cloud Publishing  
-📈 *View interactive dashboard and report:* [https://drive.google.com/drive/folders/1hHDVxkekHwxD8V3CzFAZRS4zcltBSxjT?usp=sharing]
+📈 [View interactive dashboard and report] (https://drive.google.com/drive/folders/1hHDVxkekHwxD8V3CzFAZRS4zcltBSxjT?usp=sharing)
 
 ---
 
 ### 🏒 Web Scraping & Data Wrangling – Hockey Standings  
 Created a robust object-oriented Python scraper to extract and clean live hockey team standings data.  
 **Skills:** Python (OOP), Web Scraping, Pandas, Data Cleaning, Visualization  
-📌 *View notebook and report:* [https://drive.google.com/drive/folders/1gOgeTRBqw-GRy1PXRHfDEw5tAt4w-gcc?usp=sharing]
+📌 [View notebook and report] (https://drive.google.com/drive/folders/1gOgeTRBqw-GRy1PXRHfDEw5tAt4w-gcc?usp=sharing)
 
 ---
 
 ### 🎬 Data Wrangling – Netflix Shows Dataset  
 Processed a messy streaming dataset into an analysis-ready format, applying advanced wrangling techniques.  
 **Skills:** Python, Pandas, Feature Engineering, Data Validation  
-📌 *View notebook and report:* [https://drive.google.com/drive/folders/1PaTZHMtba4fgNnvVkWaKeNgUc-qVF336?usp=sharing]
+📌 [View notebook and report] (https://drive.google.com/drive/folders/1PaTZHMtba4fgNnvVkWaKeNgUc-qVF336?usp=sharing)
 
 ---
 
 ### 🚢 Exploratory Data Analysis – Titanic Dataset  
 Analyzed passenger survival patterns using structured EDA with visual insights and hypothesis testing.  
 **Skills:** Python, Pandas, Seaborn, Matplotlib, Scipy  
-📊 *View notebook and report:* [https://drive.google.com/drive/folders/1I6mFIYw9gnSN-ygAcB_nFf58WpaiW1Ls?usp=sharing]
+📊 [View notebook and report] (https://drive.google.com/drive/folders/1I6mFIYw9gnSN-ygAcB_nFf58WpaiW1Ls?usp=sharing)
 
 ---
 
