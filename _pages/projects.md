@@ -1,7 +1,6 @@
 ---
 permalink: /projects/
 title: "Projects"
-author_profile: true
 ---
 
 Explore a curated list of AI, ML, and full-stack software projects focused on solving real-world challenges.  
