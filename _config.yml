@@ -9,17 +9,12 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Amidu Dabor
 email: daboramidu93@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to the portfolio of a results-driven Software & AI/ML Engineer with 3+ years of experience building and delivering scalable, intelligent solutions across telecommunications IT, ICT-based training, and backend systems. I specialize in generative AI, data science/data analysis, and cloud computing (Azure, AWS, & Modal), leveraging tools like Python, TensorFlow, Hugging Face, and LangChain to build ethical, impact software that drives real-world innovation.
-  # twitter_username: username
+description: >-
+  Results-driven Software & AI/ML Engineer with 3+ years of experience building intelligent, scalable, and ethical software solutions in generative AI, data science, cloud computing, and backend development. I specialize in tools like Python, TensorFlow, Hugging Face, LangChain, Azure, and AWS to deliver real-world impact and innovation.
 github_username: Amidu-Dabor
-minimal_mistakes_skin: neon
+minimal_mistakes_skin: air # Professional, clean look with great typography
 search: true
 
 # Build settings
@@ -29,7 +24,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Africa/Nairobi
 
 include:
   - _pages
@@ -58,32 +53,29 @@ plugins:
 author:
   name   : "Amidu Dabor"
   avatar : "/assets/images/Amidu_Dabor_Passport_Photo.jpg"
-  bio    : "Results-driven Software & AI/ML Engineer with 3+ years of experience across telecom IT, ICT training, and cloud-based AI solutions, specializing in scalable, ethical systems using Python, TensorFlow, Azure, and AWS."
+  bio    : "AI/ML Engineer | Generative AI | Data Scientist | Cloud Developer | Ethical Software Innovator"
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/adabor/"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Amidu-Dabor/ProjectsEnv"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
+      url: "https://github.com/Amidu-Dabor"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:daboramidu93@gmail.com"
 
 footer:
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/adabor/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Amidu-Dabor/ProjectsEnv"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
+      url: "https://github.com/Amidu-Dabor"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:daboramidu93@gmail.com"
 
 defaults:
   # _posts
