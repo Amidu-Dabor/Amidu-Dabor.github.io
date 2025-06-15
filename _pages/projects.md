@@ -1,7 +1,10 @@
 ---
-permalink: /projects/
 title: "Projects"
+permalink: /projects/
+layout: single
+author_profile: true
 ---
+
 
 Explore a curated list of AI, ML, and full-stack software projects focused on solving real-world challenges.  
 👇 Scroll down to view project cards or visit my [GitHub Repository](https://github.com/Amidu-Dabor/ProjectsEnv).
