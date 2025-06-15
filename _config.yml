@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Amidu Dabor"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/Amidu_Dabor_Passport_Photo.jpg"
   bio    : "Results-driven Software & AI/ML Engineer with 3+ years of experience across telecom IT, ICT training, and cloud-based AI solutions, specializing in scalable, ethical systems using Python, TensorFlow, Azure, and AWS."
   links:
     - label: "LinkedIn"
