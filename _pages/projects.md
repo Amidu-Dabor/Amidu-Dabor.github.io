@@ -9,8 +9,6 @@ author_profile: true
 Explore a curated list of AI, ML, and full-stack software projects focused on solving real-world challenges.  
 👇 Scroll down to view project cards or visit my [GitHub Repository](https://github.com/Amidu-Dabor/ProjectsEnv).
 
-<!-- {% include projects-gallery.html %} -->
-
 ## 🚀 Featured Projects
 
 A showcase of AI/ML, data science, and business intelligence projects demonstrating my hands-on skills in real-world scenarios, from web scraping and LLMs to dashboards and predictive analytics.
