@@ -17,7 +17,8 @@ A showcase of AI/ML, data science, and business intelligence projects demonstrat
 
 ### 🏨 Business Intelligence Dashboard – Hotel Management  
 Developed a hotel analytics dashboard in Power BI using the AtliQ Grands dataset, enabling insights for operational decision-making.  
-**Skills:** Power BI, Power Query, DAX, Data Modeling, Cloud Publishing  
+**Skills:** Power BI, Power Query, DAX, Data Modeling, Cloud Publishing
+![Hotel Dashboard Preview](/assets/images/hotel-management-dashboard.png)
 📈 [View interactive dashboard and report](https://drive.google.com/drive/folders/1hHDVxkekHwxD8V3CzFAZRS4zcltBSxjT?usp=sharing)
 
 ---
