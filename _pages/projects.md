@@ -20,6 +20,7 @@ Developed a hotel analytics dashboard in Power BI using the AtliQ Grands dataset
 **Skills:** Power BI, Power Query, DAX, Data Modeling, Cloud Publishing
 
 ![Hotel Dashboard Preview](/assets/images/hotel-management-dashboard-1.png)
+
 📈 [View interactive dashboard and report](https://drive.google.com/drive/folders/1hHDVxkekHwxD8V3CzFAZRS4zcltBSxjT?usp=sharing)
 
 ---
