@@ -15,6 +15,16 @@ A showcase of AI/ML, data science, and business intelligence projects demonstrat
 
 ---
 
+### 👥 HR Analytics Dashboard – Workforce Insights  
+Built an interactive HR analytics dashboard in Tableau to visualize employee demographics, salary distribution, and departmental composition. Includes filters for detailed employee views and summary metrics.  
+**Skills:** Tableau, Data Transformation, Calculated Fields, Dashboard Design, Google Drive Publishing  
+
+![HR Dashboard Preview](/assets/images/hr-analytics-dashboard-1.png)
+
+📊 [View dashboard and report](https://drive.google.com/your-final-sharable-link)
+
+---
+
 ### 🏨 Business Intelligence Dashboard – Hotel Management  
 Developed a hotel analytics dashboard in Power BI using the AtliQ Grands dataset, enabling insights for operational decision-making.  
 **Skills:** Power BI, Power Query, DAX, Data Modeling, Cloud Publishing
