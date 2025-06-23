@@ -23,7 +23,7 @@ Built an interactive HR analytics dashboard in Tableau to visualize employee dem
 
 ![HR Detailed Dashboard Preview](/assets/images/detailed-hr-dashboard.png)
 
-📊 [View dashboard and report](https://drive.google.com/file/d/1Ln54U-aXyKIRw_iUpsP4iPTXVXYfWui-/view?usp=sharing)
+📊 [View complete interactive dashboard and report](https://drive.google.com/file/d/1Ln54U-aXyKIRw_iUpsP4iPTXVXYfWui-/view?usp=sharing)
 
 ---
 
@@ -33,7 +33,7 @@ Developed a hotel analytics dashboard in Power BI using the AtliQ Grands dataset
 
 ![Hotel Dashboard Preview](/assets/images/hotel-management-dashboard-1.png)
 
-📈 [View interactive dashboard and report](https://drive.google.com/drive/folders/1hHDVxkekHwxD8V3CzFAZRS4zcltBSxjT?usp=sharing)
+📈 [View complete interactive dashboard and report](https://drive.google.com/drive/folders/1hHDVxkekHwxD8V3CzFAZRS4zcltBSxjT?usp=sharing)
 
 ---
 
