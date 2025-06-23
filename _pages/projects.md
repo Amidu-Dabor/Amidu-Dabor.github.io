@@ -19,9 +19,9 @@ A showcase of AI/ML, data science, and business intelligence projects demonstrat
 Built an interactive HR analytics dashboard in Tableau to visualize employee demographics, salary distribution, and departmental composition. Includes filters for detailed employee views and summary metrics.  
 **Skills:** Tableau, Data Transformation, Calculated Fields, Dashboard Design, Google Drive Publishing  
 
-![HR Summary Dashboard Preview](/assets/images/HR Summary Dashboard.png)
+![HR Summary Dashboard Preview](/assets/images/summary-hr-dashboard.png)
 
-![HR Detailed Dashboard Preview](/assets/images/HR Detailed Dashboard.png)
+![HR Detailed Dashboard Preview](/assets/images/detailed-hr-dashboard.png)
 
 📊 [View dashboard and report](https://drive.google.com/file/d/1Ln54U-aXyKIRw_iUpsP4iPTXVXYfWui-/view?usp=sharing)
 
