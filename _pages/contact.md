@@ -12,7 +12,7 @@ Feel free to reach out. I welcome meaningful connections that inspire progress a
 ## 🤝 Let’s Connect
 
 - 📧 **Email**: [daboramidu93@gmail.com](mailto:daboramidu93@gmail.com)  
-- 📞 **Phone**: [+254 712 345 678](tel:+254712345678)  
+- 📞 **Phone**: [+254 795 455 796](tel:+254795455796)  
 - 💼 **LinkedIn**: [linkedin.com/in/amidu-dabor](https://www.linkedin.com/in/adabor/)  
 - 🐙 **GitHub**: [github.com/Amidu-Dabor](https://github.com/Amidu-Dabor)  
 - 📁 **Resume**: [View Resume](/resume/)
