@@ -5,21 +5,24 @@ title: "Contact"
 
 # 📬 Contact Me
 
-I'm open to exciting opportunities in **AI & Machine Learning, software engineering, or data-driven projects**, whether you're hiring, collaborating, or curious.
+I'm always open to exciting opportunities in **AI & Machine Learning**, **software engineering**, or **data-driven innovation**, whether you're hiring, collaborating, or exploring shared interests.
 
-## 🤝 Let's Connect
+Feel free to reach out. I welcome meaningful connections that inspire progress and impact.
 
-- 📧 **Email**: [daboramidu93@gmail.com](mailto:daboramidu93@gmail.com)
-- 💼 **LinkedIn**: [linkedin.com/in/amidu-dabor](https://www.linkedin.com/in/adabor/)
-- 🐙 **GitHub**: [github.com/Amidu-Dabor](https://github.com/Amidu-Dabor)
+## 🤝 Let’s Connect
+
+- 📧 **Email**: [daboramidu93@gmail.com](mailto:daboramidu93@gmail.com)  
+- 📞 **Phone**: [+254 712 345 678](tel:+254712345678)  
+- 💼 **LinkedIn**: [linkedin.com/in/amidu-dabor](https://www.linkedin.com/in/adabor/)  
+- 🐙 **GitHub**: [github.com/Amidu-Dabor](https://github.com/Amidu-Dabor)  
 - 📁 **Resume**: [View Resume](/resume/)
 
 ---
 
 ## 📝 Prefer a Message Form?
 
-*Coming soon: Contact form integration.*
+*Coming soon: Integrated contact form for direct messages.*
 
 ---
 
-Thank you for stopping by. Looking forward to connecting!
+Thank you for visiting. I look forward to hearing from you and building something exceptional together!
