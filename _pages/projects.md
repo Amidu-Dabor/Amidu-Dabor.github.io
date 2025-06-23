@@ -65,7 +65,7 @@ Analyzed passenger survival patterns using structured EDA with visual insights a
 Built a RAG-based AI chatbot for personalized academic support using modern NLP frameworks.  
 **Skills:** Python, LangChain, Hugging Face, Gradio  
 
-🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv/tree/main/AcademicAI_Assistant)
+🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv)
 
 ---
 
@@ -73,7 +73,7 @@ Built a RAG-based AI chatbot for personalized academic support using modern NLP 
 LLM-powered translator that converts Python scripts into C++ syntax for system-level deployment.  
 **Skills:** NLP, Transformers, Python, C++  
 
-🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv/tree/main/Python2Cpp_LLM)
+🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv)
 
 ---
 
@@ -81,7 +81,7 @@ LLM-powered translator that converts Python scripts into C++ syntax for system-l
 Multi-agent system that monitors RSS feeds and alerts users with targeted deal recommendations.  
 **Skills:** Python, Agent Systems, Automation 
 
-🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv/tree/main/DealFinderAI)
+🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv)
 
 ---
 
@@ -89,7 +89,7 @@ Multi-agent system that monitors RSS feeds and alerts users with targeted deal r
 Summarizes lengthy text documents using fine-tuned T5/GPT models for quick insight extraction.  
 **Skills:** NLP, Hugging Face, T5, Transformers  
 
-🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv/tree/main/GenAI_Summarizer)
+🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv)
 
 ---
 
@@ -97,7 +97,7 @@ Summarizes lengthy text documents using fine-tuned T5/GPT models for quick insig
 An XGBoost-powered classifier that predicts tumor malignancy using clinical datasets.  
 **Skills:** XGBoost, Scikit-learn, Pandas, Matplotlib  
 
-🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv/tree/main/CancerDiagnosis_XGBoost)
+🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv)
 
 ---
 
@@ -105,7 +105,7 @@ An XGBoost-powered classifier that predicts tumor malignancy using clinical data
 Built a model that predicts ad click-through rates for targeted marketing optimization.  
 **Skills:** Classification, Pandas, Model Evaluation  
 
-🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv/tree/main/CTR_Predictor)
+🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv)
 
 ---
 
@@ -113,7 +113,7 @@ Built a model that predicts ad click-through rates for targeted marketing optimi
 Forecasts user purchase behavior to help businesses improve customer conversion strategies.  
 **Skills:** Python, Feature Engineering, Predictive Modeling  
 
-🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv/tree/main/CustomerPurchase_Predictor)
+🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv)
 
 ---
 
@@ -121,7 +121,7 @@ Forecasts user purchase behavior to help businesses improve customer conversion 
 Automatically converts structured business data into natural-language brochures.  
 **Skills:** Python, NLP, Template-Based Text Generation  
 
-🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv/tree/main/AIBrochureGenerator)
+🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv)
 
 ---
 
@@ -129,7 +129,7 @@ Automatically converts structured business data into natural-language brochures.
 Predicts business profitability and potential investment impact using regression models.  
 **Skills:** Regression, Scikit-learn, Data Analysis 
 
-🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv/tree/main/StartupProfitAnalyzer)
+🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv)
 
 ---
 
@@ -137,7 +137,7 @@ Predicts business profitability and potential investment impact using regression
 A web-based IT support platform for handling tickets and user requests using Django.  
 **Skills:** Python, Django, JavaScript, CSS  
 
-🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv/tree/main/HelpDeskSupportSystem)
+🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv)
 
 ---
 
