@@ -1,10 +1,12 @@
 ---
-layout: single
+layout: default
 author_profile: true
 title: "👋 Welcome"
 description: "Portfolio of Amidu Dabor - Software & AI/ML Engineer | Data Scientist"
 classes: wide
 ---
+
+{% include_relative toggle-theme.html %}
 
 <style>
   :root {
@@ -37,113 +39,38 @@ classes: wide
   section {
     margin-bottom: 2.5rem;
   }
-  .carousel-container {
-    position: relative;
-    overflow: hidden;
-  }
-  .carousel {
-    display: flex;
-    transition: transform 0.5s ease;
-    gap: 1rem;
-  }
-  .project-card {
-    position: relative;
-    flex: 0 0 auto;
-    width: 300px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1rem;
-    background-color: #f9f9f9;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    animation: fadeCard 0.8s ease forwards;
-    opacity: 0;
-    display: block !important;
-    overflow: hidden;
-  }
-  .project-card:hover {
-    transform: scale(1.03);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
-  }
-  .project-description {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    padding: 0.5rem;
-    font-size: 0.9rem;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    pointer-events: none;
-  }
-  .project-card:hover .project-description {
-    opacity: 1;
-  }
-  .project-card a {
-    display: inline-block;
-    margin-top: 0.5rem;
-    text-decoration: underline;
-  }
-  .carousel-nav {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 0.5rem;
-    cursor: pointer;
-    z-index: 1;
-  }
-  .carousel-nav.left {
-    left: 0.2rem;
-  }
-  .carousel-nav.right {
-    right: 0.2rem;
-  }
-  .filter-buttons {
-    display: flex;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
-    flex-wrap: wrap;
-  }
-  .filter-buttons button {
-    padding: 0.4rem 0.8rem;
-    cursor: pointer;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    gap: 0.3rem;
-    transition: background-color 0.3s;
-  }
-  .filter-buttons button:hover {
-    background-color: #e0e0e0;
-  }
-  .dark-toggle {
-    margin: 1rem 0;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    cursor: pointer;
-    font-weight: 500;
-  }
-  .dark-toggle svg {
-    width: 20px;
-    height: 20px;
-  }
-  .dark-mode {
-    background-color: #111;
-    color: #eee;
-  }
 </style>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const cards = document.querySelectorAll('.project-card');
-    cards.forEach((card, i) => {
-      setTimeout(() => card.style.opacity = 1, 200 * i);
-    });
-  });
-</script>
+<section>
+  <p>I’m <strong>Amidu Dabor</strong>, a Software and AI/ML Engineer passionate about building scalable, ethical, and intelligent systems that solve real-world problems.</p>
+
+  <p>With 3+ years of hands-on experience in <strong>telecom IT</strong>, <strong>AI engineering</strong>, <strong>LLM development</strong>, <strong>backend-focused full-stack systems</strong>, and <strong>cloud automation</strong>, I bring a proven expertise of delivering production-grade solutions across high-impact sectors.</p>
+
+  <p>I recently concluded my <strong>MSc in Information Systems and Technology</strong> (Software Engineering concentration) at <strong>USIU-Africa</strong>, where I designed a RAG-based academic AI assistant. I specialize in tools and platforms such as Python (Django, Flask), Hugging Face, LangChain, Terraform, Ansible, AWS, Azure, CI/CD pipelines, Docker, TensorFlow, Scikit-learn, Power BI, and Tableau.</p>
+
+  <p>
+    🔍 <a href="/about/">Learn more about me</a><br>
+    🚀 <a href="/projects/">Browse my featured projects</a><br>
+    📬 <a href="mailto:daboramidu93@gmail.com">Contact me via email</a>
+  </p>
+</section>
+
+<hr>
+
+<section>
+  <h2>🔧 What I Work On</h2>
+  <ul>
+    <li><strong>AI & Machine Learning:</strong> LLM fine-tuning, AI automation, model optimization, generative AI, RAG workflows, MCP, Transformers, Hugging Face, LangChain, TensorFlow, Keras, PyTorch, Scikit-learn, Gradio</li>
+    <li><strong>Backend & Software Engineering:</strong> Python (Django, Flask), REST APIs, microservices, serverless architectures, SQL/NoSQL, Git</li>
+    <li><strong>Cloud & DevOps:</strong> Terraform, Ansible, Azure ARM templates, Bash/PowerShell scripting, GitHub Actions, AWS, Azure, GCP, Modal</li>
+    <li><strong>Data Science & Analytics:</strong> Pandas, NumPy, SciPy, Matplotlib, Seaborn, time series, EDA, feature engineering, Power BI, Tableau, Weights & Biases</li>
+    <li><strong>Additional:</strong> Flutter (Mobile), JavaScript, Java, R, C++, creative writing, cross-functional collaboration</li>
+  </ul>
+</section>
+
+<hr>
+
+<section>
+  <h2>📬 Let’s Connect</h2>
+  <p>I’m always open to collaborations, impactful work, or just chatting tech. Feel free to reach out via <a href="mailto:daboramidu93@gmail.com">email</a> or connect with me on <a href="https://www.linkedin.com/in/adabor/" target="_blank">LinkedIn</a>.</p>
+</section>
