@@ -5,140 +5,92 @@ layout: single
 author_profile: true
 ---
 
+<style>
+  .project-thumb {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+  }
+  .project-thumb:hover {
+    transform: scale(1.03);
+  }
+  .project-card {
+    margin-bottom: 3rem;
+    border-left: 4px solid #007acc;
+    padding-left: 1.2rem;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+</style>
 
 Explore a curated list of AI, ML, and full-stack software projects focused on solving real-world challenges.  
-👇 Scroll down to view project cards or visit my [GitHub Repository](https://github.com/Amidu-Dabor/ProjectsEnv).
+👇 Scroll down to view project highlights or visit my [GitHub Repository](https://github.com/Amidu-Dabor/ProjectsEnv) for source code, notebooks, and documentation.
 
 ## 🚀 Featured Projects
 
-A showcase of AI/ML, data science, and business intelligence projects demonstrating my hands-on skills in real-world scenarios, from web scraping and LLMs to dashboards and predictive analytics.
+A showcase of AI/ML, data science, and business intelligence projects demonstrating my hands-on skills in real-world scenarios—from scraping and automation to dashboards and predictive systems.
 
 ---
 
-### 👥 HR Analytics Dashboard – Workforce Insights  
-Built an interactive HR analytics dashboard in Tableau to visualize employee demographics, salary distribution, and departmental composition. Includes filters for detailed employee views and summary metrics.  
-**Skills:** Tableau, Data Transformation, Calculated Fields, Dashboard Design, Google Drive Publishing  
+<div class="project-card">
+<h3>👥 HR Analytics Dashboard – Workforce Insights</h3>
+<p>Interactive dashboard in Tableau showing employee demographics, salary trends, and departmental distribution. Designed with end-user filters and real-time summaries.</p>
+<p><strong>Skills:</strong> Tableau, Data Transformation, Calculated Fields, Dashboard Design, Google Drive Publishing</p>
+<img src="/assets/images/summary-hr-dashboard.png" class="project-thumb">
+<img src="/assets/images/detailed-hr-dashboard.png" class="project-thumb">
+📊 <a href="https://drive.google.com/file/d/1Ln54U-aXyKIRw_iUpsP4iPTXVXYfWui-/view?usp=sharing" target="_blank">View interactive report</a>
+</div>
 
-![HR Summary Dashboard Preview](/assets/images/summary-hr-dashboard.png)
+<div class="project-card">
+<h3>🏨 Hotel Management BI Dashboard</h3>
+<p>Power BI dashboard using AtliQ Grands dataset to deliver insights for hotel management and operations.</p>
+<p><strong>Skills:</strong> Power BI, Power Query, DAX, Data Modeling</p>
+<img src="/assets/images/hotel-management-dashboard-1.png" class="project-thumb">
+📈 <a href="https://drive.google.com/drive/folders/1hHDVxkekHwxD8V3CzFAZRS4zcltBSxjT?usp=sharing" target="_blank">View full dashboard</a>
+</div>
 
-![HR Detailed Dashboard Preview](/assets/images/detailed-hr-dashboard.png)
+<div class="project-card">
+<h3>🏒 Web Scraping & Data Wrangling – Hockey Standings</h3>
+<p>Python-based scraper and data wrangler extracting and cleaning team standings data in real-time.</p>
+<p><strong>Skills:</strong> Python (OOP), Web Scraping, Pandas, Visualization</p>
+📌 <a href="https://drive.google.com/drive/folders/1gOgeTRBqw-GRy1PXRHfDEw5tAt4w-gcc?usp=sharing" target="_blank">View notebook</a>
+</div>
 
-📊 [View complete interactive dashboard and report](https://drive.google.com/file/d/1Ln54U-aXyKIRw_iUpsP4iPTXVXYfWui-/view?usp=sharing)
+<div class="project-card">
+<h3>🎓 Academic AI Assistant</h3>
+<p>Retrieval-Augmented Generation (RAG) chatbot providing academic support using LangChain and Hugging Face.</p>
+<p><strong>Skills:</strong> Python, LangChain, Hugging Face, Gradio</p>
+🔗 <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">Explore on GitHub</a>
+</div>
 
----
+<div class="project-card">
+<h3>🔄 Python-to-C++ Code Converter</h3>
+<p>LLM-based translator converting Python scripts to C++ syntax for optimized system-level implementation.</p>
+<p><strong>Skills:</strong> NLP, Transformers, Python, C++</p>
+🔗 <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">Explore Project</a>
+</div>
 
-### 🏨 Business Intelligence Dashboard – Hotel Management  
-Developed a hotel analytics dashboard in Power BI using the AtliQ Grands dataset, enabling insights for operational decision-making.  
-**Skills:** Power BI, Power Query, DAX, Data Modeling, Cloud Publishing
+<div class="project-card">
+<h3>🤖 Autonomous Deal-Finder AI</h3>
+<p>Multi-agent RSS feed monitor that recommends real-time investment or product deals based on user preferences.</p>
+<p><strong>Skills:</strong> Python, Agent Systems, Automation</p>
+🔗 <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">Explore Project</a>
+</div>
 
-![Hotel Dashboard Preview](/assets/images/hotel-management-dashboard-1.png)
+<div class="project-card">
+<h3>🧬 Cancer Diagnosis Classifier</h3>
+<p>XGBoost classifier trained to predict tumor malignancy based on medical data.</p>
+<p><strong>Skills:</strong> XGBoost, Scikit-learn, Pandas, Matplotlib</p>
+🔗 <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">Explore Project</a>
+</div>
 
-📈 [View complete interactive dashboard and report](https://drive.google.com/drive/folders/1hHDVxkekHwxD8V3CzFAZRS4zcltBSxjT?usp=sharing)
+<div class="project-card">
+<h3>🧾 AI Brochure Generator</h3>
+<p>Template-based NLP system that converts structured business input into readable promotional brochures.</p>
+<p><strong>Skills:</strong> Python, Template NLP, Text Generation</p>
+🔗 <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">Explore Project</a>
+</div>
 
----
-
-### 🏒 Web Scraping & Data Wrangling – Hockey Standings  
-Created a robust object-oriented Python scraper to extract and clean live hockey team standings data.  
-**Skills:** Python (OOP), Web Scraping, Pandas, Data Cleaning, Visualization  
-
-📌 [View notebook and report](https://drive.google.com/drive/folders/1gOgeTRBqw-GRy1PXRHfDEw5tAt4w-gcc?usp=sharing)
-
----
-
-### 🎬 Data Wrangling – Netflix Shows Dataset  
-Processed a messy streaming dataset into an analysis-ready format, applying advanced wrangling techniques.  
-**Skills:** Python, Pandas, Feature Engineering, Data Validation  
-
-📌 [View notebook and report](https://drive.google.com/drive/folders/1PaTZHMtba4fgNnvVkWaKeNgUc-qVF336?usp=sharing)
-
----
-
-### 🚢 Exploratory Data Analysis – Titanic Dataset  
-Analyzed passenger survival patterns using structured EDA with visual insights and hypothesis testing.  
-**Skills:** Python, Pandas, Seaborn, Matplotlib, Scipy  
-
-📊 [View notebook and report](https://drive.google.com/drive/folders/1I6mFIYw9gnSN-ygAcB_nFf58WpaiW1Ls?usp=sharing)
-
----
-
-### 🎓 Academic AI Assistant  
-Built a RAG-based AI chatbot for personalized academic support using modern NLP frameworks.  
-**Skills:** Python, LangChain, Hugging Face, Gradio  
-
-🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv)
-
----
-
-### 🔄 Python-to-C++ Code Converter  
-LLM-powered translator that converts Python scripts into C++ syntax for system-level deployment.  
-**Skills:** NLP, Transformers, Python, C++  
-
-🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv)
-
----
-
-### 🤖 Autonomous Deal-Finder AI  
-Multi-agent system that monitors RSS feeds and alerts users with targeted deal recommendations.  
-**Skills:** Python, Agent Systems, Automation 
-
-🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv)
-
----
-
-### 📝 Generative AI Summarizer  
-Summarizes lengthy text documents using fine-tuned T5/GPT models for quick insight extraction.  
-**Skills:** NLP, Hugging Face, T5, Transformers  
-
-🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv)
-
----
-
-### 🧬 Cancer Diagnosis Classifier  
-An XGBoost-powered classifier that predicts tumor malignancy using clinical datasets.  
-**Skills:** XGBoost, Scikit-learn, Pandas, Matplotlib  
-
-🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv)
-
----
-
-### 📈 Social Ads CTR Predictor  
-Built a model that predicts ad click-through rates for targeted marketing optimization.  
-**Skills:** Classification, Pandas, Model Evaluation  
-
-🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv)
-
----
-
-### 🛒 Customer Purchase Predictor  
-Forecasts user purchase behavior to help businesses improve customer conversion strategies.  
-**Skills:** Python, Feature Engineering, Predictive Modeling  
-
-🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv)
-
----
-
-### 🧾 AI Brochure Generator  
-Automatically converts structured business data into natural-language brochures.  
-**Skills:** Python, NLP, Template-Based Text Generation  
-
-🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv)
-
----
-
-### 📊 Startup Profit Analyzer  
-Predicts business profitability and potential investment impact using regression models.  
-**Skills:** Regression, Scikit-learn, Data Analysis 
-
-🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv)
-
----
-
-### 🛠 Helpdesk Support System *(In Progress)*  
-A web-based IT support platform for handling tickets and user requests using Django.  
-**Skills:** Python, Django, JavaScript, CSS  
-
-🔗 [Explore Project](https://github.com/Amidu-Dabor/ProjectsEnv)
-
----
-
-🗂 **Browse All Projects:** [Full Repository](https://github.com/Amidu-Dabor/ProjectsEnv.git)
+🗂 <strong>Browse all repositories:</strong> <a href="https://github.com/Amidu-Dabor/ProjectsEnv.git" target="_blank">GitHub ProjectsEnv</a>
