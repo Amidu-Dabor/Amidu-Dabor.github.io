@@ -7,7 +7,7 @@ title: "Resume"
 
 Looking to collaborate or hire? Download my resume or explore my background below.
 
-👉 [**Download PDF**](/assets/files/Amidu_Dabor_CV.pdf){: .btn .btn--primary }
+👉 [**Download PDF**](/assets/files/AmiduDaborCV2.pdf){: .btn .btn--primary }
 
 ---
 
