@@ -37,6 +37,9 @@ classes: wide
     padding: 1rem;
     background-color: #f9f9f9;
   }
+  .project-card[data-category] {
+    display: none;
+  }
   .project-card a {
     display: inline-block;
     margin-top: 0.5rem;
@@ -58,6 +61,18 @@ classes: wide
   .carousel-nav.right {
     right: 0.2rem;
   }
+  .filter-buttons {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .filter-buttons button {
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
 </style>
 
 <section>
@@ -78,27 +93,49 @@ classes: wide
 
 <section>
   <h2>🎯 Project Spotlight</h2>
+  <div class="filter-buttons">
+    <button onclick="filterProjects('all')">All</button>
+    <button onclick="filterProjects('ai')">AI & ML</button>
+    <button onclick="filterProjects('analytics')">Analytics</button>
+    <button onclick="filterProjects('devops')">DevOps</button>
+  </div>
+
   <div class="carousel-container">
     <button class="carousel-nav left" onclick="scrollCarousel(-1)">❮</button>
     <div class="carousel" id="carousel">
-      <div class="project-card">
+      <div class="project-card" data-category="ai">
         <h3>Academic AI Assistant</h3>
         <p>A RAG-powered chatbot offering contextualized academic support.</p>
         <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
       </div>
-      <div class="project-card">
+      <div class="project-card" data-category="ai">
         <h3>Python-to-C++ Converter</h3>
         <p>LLM-powered translator converting Python code to C++ syntax.</p>
         <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
       </div>
-      <div class="project-card">
+      <div class="project-card" data-category="analytics">
         <h3>Hotel BI Dashboard</h3>
         <p>Power BI dashboard for hotel analytics and business insights.</p>
         <a href="https://drive.google.com/drive/folders/1hHDVxkekHwxD8V3CzFAZRS4zcltBSxjT?usp=sharing" target="_blank">View Report</a>
       </div>
-      <div class="project-card">
+      <div class="project-card" data-category="ai">
         <h3>Deal-Finder AI</h3>
         <p>Multi-agent system monitoring RSS feeds for smart alerts.</p>
+        <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
+      </div>
+      <div class="project-card" data-category="ai">
+        <h3>AI Summarizer</h3>
+        <p>Summarizes long text using fine-tuned GPT/T5 for quick insights.</p>
+        <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
+      </div>
+      <div class="project-card" data-category="analytics">
+        <h3>Cancer Diagnosis Classifier</h3>
+        <p>XGBoost-based system predicting tumor malignancy from clinical data.</p>
+        <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
+      </div>
+      <div class="project-card" data-category="analytics">
+        <h3>CTR Predictor</h3>
+        <p>Predicts ad click-through rates to support marketing strategies.</p>
         <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
       </div>
     </div>
@@ -116,6 +153,14 @@ classes: wide
     if (scrollAmount < 0) scrollAmount = 0;
     if (scrollAmount > carousel.scrollWidth - carousel.clientWidth) scrollAmount = 0;
     carousel.style.transform = `translateX(-${scrollAmount}px)`;
+  }
+
+  function filterProjects(category) {
+    const cards = document.querySelectorAll('.project-card');
+    cards.forEach(card => {
+      const isMatch = category === 'all' || card.dataset.category === category;
+      card.style.display = isMatch ? 'block' : 'none';
+    });
   }
 
   setInterval(() => scrollCarousel(1), 5000);
