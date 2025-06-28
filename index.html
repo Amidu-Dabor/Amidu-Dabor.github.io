@@ -40,20 +40,28 @@ classes: wide
   section {
     margin-bottom: 2.5rem;
   }
-  .dark-toggle {
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
-    background: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 0.4rem;
-    cursor: pointer;
-    z-index: 9999;
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 1rem;
+    padding: 1rem 0;
   }
-  .dark-mode {
-    background-color: #111;
-    color: #eee;
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
+  .carousel-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+  }
+  .carousel-arrow {
+    cursor: pointer;
+    background: #eee;
+    border: 1px solid #ccc;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    font-weight: bold;
   }
 </style>
 
@@ -64,6 +72,21 @@ classes: wide
     if (mode === 'dark') {
       document.body.classList.add('dark-mode');
       icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.293 14.707a8 8 0 01-11.314-11.314 8 8 0 1011.314 11.314z" />';
+    }
+
+    const carousel = document.querySelector('.carousel');
+    if (carousel) {
+      setInterval(() => {
+        carousel.scrollBy({ left: 320, behavior: 'smooth' });
+      }, 5000);
+
+      document.querySelector('#left-arrow')?.addEventListener('click', () => {
+        carousel.scrollBy({ left: -320, behavior: 'smooth' });
+      });
+
+      document.querySelector('#right-arrow')?.addEventListener('click', () => {
+        carousel.scrollBy({ left: 320, behavior: 'smooth' });
+      });
     }
   });
 
