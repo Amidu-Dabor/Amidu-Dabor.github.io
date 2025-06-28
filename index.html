@@ -7,6 +7,19 @@ classes: wide
 ---
 
 <style>
+  :root {
+    color-scheme: light dark;
+  }
+  body {
+    transition: background 0.4s ease, color 0.4s ease;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
   h1, h2 {
     font-size: 1.8rem;
   }
@@ -36,6 +49,11 @@ classes: wide
     border-radius: 8px;
     padding: 1rem;
     background-color: #f9f9f9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .project-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
   }
   .project-card[data-category] {
     display: none;
@@ -76,6 +94,26 @@ classes: wide
     display: flex;
     align-items: center;
     gap: 0.3rem;
+    transition: background-color 0.3s;
+  }
+  .filter-buttons button:hover {
+    background-color: #e0e0e0;
+  }
+  .dark-toggle {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .dark-toggle svg {
+    width: 20px;
+    height: 20px;
+  }
+  .dark-mode {
+    background-color: #111;
+    color: #eee;
   }
 </style>
 
@@ -93,6 +131,13 @@ classes: wide
   </p>
 </section>
 
+<div class="dark-toggle" onclick="toggleTheme()">
+  <svg id="theme-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m8.66-8.66l-.7.7M4.34 4.34l-.7.7M21 12h-1M4 12H3m16.66 4.66l-.7-.7M4.34 19.66l-.7-.7M12 5a7 7 0 000 14 7 7 0 000-14z" />
+  </svg>
+  <span>Toggle Dark Mode</span>
+</div>
+
 <hr>
 
 <section>
@@ -109,7 +154,7 @@ classes: wide
   <div class="carousel-container">
     <button class="carousel-nav left" onclick="scrollCarousel(-1)">❮</button>
     <div class="carousel" id="carousel">
-      <!-- Cards remain unchanged -->
+      {{ content | markdownify }}
     </div>
     <button class="carousel-nav right" onclick="scrollCarousel(1)">❯</button>
   </div>
@@ -135,5 +180,24 @@ classes: wide
     });
   }
 
+  function applySavedTheme() {
+    const mode = localStorage.getItem('theme');
+    if (mode === 'dark') {
+      document.body.classList.add('dark-mode');
+      document.getElementById('theme-icon').innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.293 14.707a8 8 0 01-11.314-11.314 8 8 0 1011.314 11.314z" />';
+    }
+  }
+
+  function toggleTheme() {
+    document.body.classList.toggle('dark-mode');
+    const icon = document.getElementById('theme-icon');
+    const isDark = document.body.classList.contains('dark-mode');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    icon.innerHTML = isDark
+      ? '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.293 14.707a8 8 0 01-11.314-11.314 8 8 0 1011.314 11.314z" />'
+      : '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m8.66-8.66l-.7.7M4.34 4.34l-.7.7M21 12h-1M4 12H3m16.66 4.66l-.7-.7M4.34 19.66l-.7-.7M12 5a7 7 0 000 14 7 7 0 000-14z" />';
+  }
+
+  applySavedTheme();
   setInterval(() => scrollCarousel(1), 5000);
 </script>
