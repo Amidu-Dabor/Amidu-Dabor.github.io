@@ -20,10 +20,47 @@ classes: wide
   section {
     margin-bottom: 2.5rem;
   }
+  .carousel-container {
+    position: relative;
+    overflow: hidden;
+  }
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    gap: 1rem;
+  }
+  .project-card {
+    flex: 0 0 auto;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+  }
+  .project-card a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    text-decoration: underline;
+  }
+  .carousel-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .carousel-nav.left {
+    left: 0.2rem;
+  }
+  .carousel-nav.right {
+    right: 0.2rem;
+  }
 </style>
 
 <section>
-<!--   <h1>👋 Welcome!</h1> -->
   <p>I’m <strong>Amidu Dabor</strong>, a Software and AI/ML Engineer passionate about building scalable, ethical, and intelligent systems that solve real-world problems.</p>
 
   <p>With 3+ years of hands-on experience in <strong>telecom IT</strong>, <strong>AI engineering</strong>, <strong>LLM development</strong>, <strong>backend-focused full-stack systems</strong>, and <strong>cloud automation</strong>, I bring a proven expertise of delivering production-grade solutions across high-impact sectors.</p>
@@ -36,6 +73,53 @@ classes: wide
     📬 <a href="mailto:daboramidu93@gmail.com">Contact me via email</a>
   </p>
 </section>
+
+<hr>
+
+<section>
+  <h2>🎯 Project Spotlight</h2>
+  <div class="carousel-container">
+    <button class="carousel-nav left" onclick="scrollCarousel(-1)">❮</button>
+    <div class="carousel" id="carousel">
+      <div class="project-card">
+        <h3>Academic AI Assistant</h3>
+        <p>A RAG-powered chatbot offering contextualized academic support.</p>
+        <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Python-to-C++ Converter</h3>
+        <p>LLM-powered translator converting Python code to C++ syntax.</p>
+        <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Hotel BI Dashboard</h3>
+        <p>Power BI dashboard for hotel analytics and business insights.</p>
+        <a href="https://drive.google.com/drive/folders/1hHDVxkekHwxD8V3CzFAZRS4zcltBSxjT?usp=sharing" target="_blank">View Report</a>
+      </div>
+      <div class="project-card">
+        <h3>Deal-Finder AI</h3>
+        <p>Multi-agent system monitoring RSS feeds for smart alerts.</p>
+        <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
+      </div>
+    </div>
+    <button class="carousel-nav right" onclick="scrollCarousel(1)">❯</button>
+  </div>
+</section>
+
+<script>
+  const carousel = document.getElementById('carousel');
+  let scrollAmount = 0;
+
+  function scrollCarousel(direction) {
+    const cardWidth = 320;
+    scrollAmount += direction * cardWidth;
+    if (scrollAmount < 0) scrollAmount = 0;
+    if (scrollAmount > carousel.scrollWidth - carousel.clientWidth) scrollAmount = 0;
+    carousel.style.transform = `translateX(-${scrollAmount}px)`;
+  }
+
+  setInterval(() => scrollCarousel(1), 5000);
+</script>
 
 <hr>
 
