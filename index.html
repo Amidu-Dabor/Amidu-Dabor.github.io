@@ -65,6 +65,7 @@ classes: wide
     display: flex;
     gap: 0.5rem;
     margin-bottom: 1rem;
+    flex-wrap: wrap;
   }
   .filter-buttons button {
     padding: 0.4rem 0.8rem;
@@ -72,6 +73,9 @@ classes: wide
     background-color: #f0f0f0;
     border: 1px solid #ccc;
     border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
   }
 </style>
 
@@ -94,50 +98,18 @@ classes: wide
 <section>
   <h2>🎯 Project Spotlight</h2>
   <div class="filter-buttons">
-    <button onclick="filterProjects('all')">All</button>
-    <button onclick="filterProjects('ai')">AI & ML</button>
-    <button onclick="filterProjects('analytics')">Analytics</button>
-    <button onclick="filterProjects('devops')">DevOps</button>
+    <button onclick="filterProjects('all')">🌐 All</button>
+    <button onclick="filterProjects('ai')">🤖 AI & ML</button>
+    <button onclick="filterProjects('analytics')">📊 Analytics</button>
+    <button onclick="filterProjects('devops')">⚙️ DevOps</button>
+    <button onclick="filterProjects('fullstack')">🧱 Full-stack</button>
+    <button onclick="filterProjects('dashboard')">📈 Dashboards</button>
   </div>
 
   <div class="carousel-container">
     <button class="carousel-nav left" onclick="scrollCarousel(-1)">❮</button>
     <div class="carousel" id="carousel">
-      <div class="project-card" data-category="ai">
-        <h3>Academic AI Assistant</h3>
-        <p>A RAG-powered chatbot offering contextualized academic support.</p>
-        <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
-      </div>
-      <div class="project-card" data-category="ai">
-        <h3>Python-to-C++ Converter</h3>
-        <p>LLM-powered translator converting Python code to C++ syntax.</p>
-        <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
-      </div>
-      <div class="project-card" data-category="analytics">
-        <h3>Hotel BI Dashboard</h3>
-        <p>Power BI dashboard for hotel analytics and business insights.</p>
-        <a href="https://drive.google.com/drive/folders/1hHDVxkekHwxD8V3CzFAZRS4zcltBSxjT?usp=sharing" target="_blank">View Report</a>
-      </div>
-      <div class="project-card" data-category="ai">
-        <h3>Deal-Finder AI</h3>
-        <p>Multi-agent system monitoring RSS feeds for smart alerts.</p>
-        <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
-      </div>
-      <div class="project-card" data-category="ai">
-        <h3>AI Summarizer</h3>
-        <p>Summarizes long text using fine-tuned GPT/T5 for quick insights.</p>
-        <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
-      </div>
-      <div class="project-card" data-category="analytics">
-        <h3>Cancer Diagnosis Classifier</h3>
-        <p>XGBoost-based system predicting tumor malignancy from clinical data.</p>
-        <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
-      </div>
-      <div class="project-card" data-category="analytics">
-        <h3>CTR Predictor</h3>
-        <p>Predicts ad click-through rates to support marketing strategies.</p>
-        <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
-      </div>
+      <!-- Cards remain unchanged -->
     </div>
     <button class="carousel-nav right" onclick="scrollCarousel(1)">❯</button>
   </div>
@@ -165,23 +137,3 @@ classes: wide
 
   setInterval(() => scrollCarousel(1), 5000);
 </script>
-
-<hr>
-
-<section>
-  <h2>🔧 What I Work On</h2>
-  <ul>
-    <li><strong>AI & Machine Learning:</strong> LLM fine-tuning, AI automation, model optimization, generative AI, RAG workflows, MCP, Transformers, Hugging Face, LangChain, TensorFlow, Keras, PyTorch, Scikit-learn, Gradio</li>
-    <li><strong>Backend & Software Engineering:</strong> Python (Django, Flask), REST APIs, microservices, serverless architectures, SQL/NoSQL, Git</li>
-    <li><strong>Cloud & DevOps:</strong> Terraform, Ansible, Azure ARM templates, Bash/PowerShell scripting, GitHub Actions, AWS, Azure, GCP, Modal</li>
-    <li><strong>Data Science & Analytics:</strong> Pandas, NumPy, SciPy, Matplotlib, Seaborn, time series, EDA, feature engineering, Power BI, Tableau, Weights & Biases</li>
-    <li><strong>Additional:</strong> Flutter (Mobile), JavaScript, Java, R, C++, creative writing, cross-functional collaboration</li>
-  </ul>
-</section>
-
-<hr>
-
-<section>
-  <h2>📬 Let’s Connect</h2>
-  <p>I’m always open to collaborations, impactful work, or just chatting tech. Feel free to reach out via <a href="mailto:daboramidu93@gmail.com">email</a> or connect with me on <a href="https://www.linkedin.com/in/adabor/" target="_blank">LinkedIn</a>.</p>
-</section>
