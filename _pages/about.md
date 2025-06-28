@@ -7,9 +7,9 @@ author_profile: true
 
 ## About Me
 
-I’m **Amidu Dabor**, a Software and AI/ML Engineer passionate about building intelligent, ethical, and scalable systems that solve real-world problems. I recently **concluded my Master of Science in Information Systems and Technology** (Software Engineering concentration) at **United States International University - Africa (USIU-Africa)**, where I focused extensively on **Artificial Intelligence, Large Language Models (LLMs), and intelligent agent systems**. 
+I’m **Amidu Dabor**, a Software and AI/ML Engineer engaged in building intelligent, ethical, and scalable systems that solve real-world problems. I recently **concluded my Master of Science in Information Systems and Technology** (Software Engineering concentration) at **United States International University - Africa (USIU-Africa)**, where I focused extensively on **Artificial Intelligence, Large Language Models (LLMs), and intelligent agent systems**. 
 
-My thesis centered on the **design and evaluation of an AI-driven academic chatbot**, leveraging Retrieval-Augmented Generation (RAG), adaptive multi-agent collaboration, and serverless infrastructure to provide contextualized, intelligent academic support.
+My thesis centered on the **design and evaluation of an academic AI assistant**, leveraging Retrieval-Augmented Generation (RAG), adaptive multi-agent collaboration, advanced prompt engineering, and serverless infrastructure to provide contextualized, intelligent academic support.
 
 With over **3 years of applied experience**, I have contributed to and led high-impact solutions in AI, backend systems, and cloud-native platforms—across academia, telecoms, and innovation ecosystems. I bring a rare blend of **strong software engineering, data-centric thinking, and the ability to work independently or collaboratively**, always driving toward results and quality.
 
