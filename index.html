@@ -6,7 +6,12 @@ description: "Portfolio of Amidu Dabor - Software & AI/ML Engineer | Data Scient
 classes: wide
 ---
 
-{% include_relative toggle-theme.html %}
+<!-- Dark/Light Mode Toggle -->
+<div class="dark-toggle" onclick="toggleTheme()">
+  <svg id="theme-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m8.66-8.66l-.7.7M4.34 4.34l-.7.7M21 12h-1M4 12H3m16.66 4.66l-.7-.7M4.34 19.66l-.7-.7M12 5a7 7 0 000 14 7 7 0 000-14z" />
+  </svg>
+</div>
 
 <style>
   :root {
@@ -22,10 +27,6 @@ classes: wide
       opacity: 1;
     }
   }
-  @keyframes fadeCard {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
   h1, h2 {
     font-size: 1.8rem;
   }
@@ -39,7 +40,43 @@ classes: wide
   section {
     margin-bottom: 2.5rem;
   }
+  .dark-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.4rem;
+    cursor: pointer;
+    z-index: 9999;
+  }
+  .dark-mode {
+    background-color: #111;
+    color: #eee;
+  }
 </style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const mode = localStorage.getItem('theme');
+    const icon = document.getElementById('theme-icon');
+    if (mode === 'dark') {
+      document.body.classList.add('dark-mode');
+      icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.293 14.707a8 8 0 01-11.314-11.314 8 8 0 1011.314 11.314z" />';
+    }
+  });
+
+  function toggleTheme() {
+    document.body.classList.toggle('dark-mode');
+    const icon = document.getElementById('theme-icon');
+    const isDark = document.body.classList.contains('dark-mode');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    icon.innerHTML = isDark
+      ? '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.293 14.707a8 8 0 01-11.314-11.314 8 8 0 1011.314 11.314z" />'
+      : '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m8.66-8.66l-.7.7M4.34 4.34l-.7.7M21 12h-1M4 12H3m16.66 4.66l-.7-.7M4.34 19.66l-.7-.7M12 5a7 7 0 000 14 7 7 0 000-14z" />';
+  }
+</script>
 
 <section>
   <p>I’m <strong>Amidu Dabor</strong>, a Software and AI/ML Engineer passionate about building scalable, ethical, and intelligent systems that solve real-world problems.</p>
