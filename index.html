@@ -23,19 +23,30 @@ classes: wide
   .carousel-container {
     position: relative;
     overflow: hidden;
+    perspective: 1000px;
   }
   .carousel {
     display: flex;
     transition: transform 0.5s ease;
     gap: 1rem;
+    will-change: transform;
   }
   .project-card {
     flex: 0 0 auto;
     width: 300px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1rem;
-    background-color: #f9f9f9;
+    border-radius: 12px;
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 1.2rem;
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .project-card:hover {
+    transform: translateY(-10px) rotateX(3deg) rotateY(2deg);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+  }
+  .project-card h3 {
+    margin-top: 0;
   }
   .project-card a {
     display: inline-block;
@@ -51,12 +62,31 @@ classes: wide
     padding: 0.5rem;
     cursor: pointer;
     z-index: 1;
+    border-radius: 50%;
   }
   .carousel-nav.left {
-    left: 0.2rem;
+    left: 0.5rem;
   }
   .carousel-nav.right {
-    right: 0.2rem;
+    right: 0.5rem;
+  }
+  .category-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .category-filter button {
+    background: #e0e0e0;
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .category-filter button.active {
+    background: #007acc;
+    color: white;
   }
 </style>
 
@@ -78,25 +108,34 @@ classes: wide
 
 <section>
   <h2>🎯 Project Spotlight</h2>
+
+  <div class="category-filter">
+    <button class="active" onclick="filterCategory('all')">All</button>
+    <button onclick="filterCategory('ai')">🤖 AI</button>
+    <button onclick="filterCategory('backend')">🧱 Backend</button>
+    <button onclick="filterCategory('cloud')">☁️ Cloud</button>
+    <button onclick="filterCategory('data')">📊 Data</button>
+  </div>
+
   <div class="carousel-container">
     <button class="carousel-nav left" onclick="scrollCarousel(-1)">❮</button>
     <div class="carousel" id="carousel">
-      <div class="project-card">
+      <div class="project-card ai">
         <h3>Academic AI Assistant</h3>
         <p>A RAG-powered chatbot offering contextualized academic support.</p>
         <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
       </div>
-      <div class="project-card">
+      <div class="project-card ai backend">
         <h3>Python-to-C++ Converter</h3>
         <p>LLM-powered translator converting Python code to C++ syntax.</p>
         <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
       </div>
-      <div class="project-card">
+      <div class="project-card data">
         <h3>Hotel BI Dashboard</h3>
         <p>Power BI dashboard for hotel analytics and business insights.</p>
         <a href="https://drive.google.com/drive/folders/1hHDVxkekHwxD8V3CzFAZRS4zcltBSxjT?usp=sharing" target="_blank">View Report</a>
       </div>
-      <div class="project-card">
+      <div class="project-card ai cloud">
         <h3>Deal-Finder AI</h3>
         <p>Multi-agent system monitoring RSS feeds for smart alerts.</p>
         <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
@@ -109,16 +148,24 @@ classes: wide
 <script>
   const carousel = document.getElementById('carousel');
   let scrollAmount = 0;
+  const cardWidth = 320;
 
   function scrollCarousel(direction) {
-    const cardWidth = 320;
     scrollAmount += direction * cardWidth;
     if (scrollAmount < 0) scrollAmount = 0;
     if (scrollAmount > carousel.scrollWidth - carousel.clientWidth) scrollAmount = 0;
     carousel.style.transform = `translateX(-${scrollAmount}px)`;
   }
 
-  setInterval(() => scrollCarousel(1), 5000);
+  setInterval(() => scrollCarousel(1), 6000);
+
+  function filterCategory(cat) {
+    document.querySelectorAll('.category-filter button').forEach(btn => btn.classList.remove('active'));
+    document.querySelector(`.category-filter button[onclick*="${cat}"]`).classList.add('active');
+    document.querySelectorAll('.project-card').forEach(card => {
+      card.style.display = (cat === 'all' || card.classList.contains(cat)) ? 'block' : 'none';
+    });
+  }
 </script>
 
 <hr>
