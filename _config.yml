@@ -28,6 +28,7 @@ timezone: Africa/Nairobi
 
 include:
   - _pages
+  - assets/files
   - search.json
   - search.html
 
