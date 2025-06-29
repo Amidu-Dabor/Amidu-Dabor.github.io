@@ -69,7 +69,7 @@ Explore a curated list of AI, ML, and full-stack software projects focused on so
   <h3>🏨 Hotel Management Dashboard – Business Intelligence</h3>
   <p>Power BI dashboard providing insights into hotel operations, customer bookings, and revenue patterns using the AtliQ Grands dataset.</p>
   <p><strong>Tools/Skills:</strong> Power BI, DAX, Data Modeling, Power Query, Business Analytics</p>
-  <img src="/assets/images/hotel-management-dashboard-1.png" class="project-thumb">
+<!--   <img src="/assets/images/hotel-management-dashboard-1.png" class="project-thumb"> -->
   <img src="/assets/images/hotel-management-dashboard-2.png" class="project-thumb">
   <video class="project-video" controls>
     <source src="/assets/videos/hotel-dashboard-demo.mp4" type="video/mp4">
