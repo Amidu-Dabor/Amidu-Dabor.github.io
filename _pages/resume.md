@@ -55,7 +55,7 @@ author_profile: true
 
   <p>Looking to collaborate or hire? Download my resume or explore my background below.</p>
 
-  👉 <a href="Amidu-Dabor.github.io/assets/files/AmiduDaborCV2.pdf" class="btn--primary" target="_blank">Download PDF</a>
+  👉 <a href="Amidu-Dabor.github.io/../assets/files/AmiduDaborCV2.pdf" class="btn--primary" target="_blank">Download PDF</a>
 </section>
 
 <hr>
