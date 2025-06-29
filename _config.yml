@@ -29,6 +29,7 @@ timezone: Africa/Nairobi
 include:
   - _pages
   - search.json
+  - search.html
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
