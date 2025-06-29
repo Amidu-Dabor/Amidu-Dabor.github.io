@@ -12,68 +12,90 @@ author_profile: true
     color: #333;
     line-height: 1.6;
   }
+
   section {
     max-width: 1000px;
     margin: 0 auto 2.5rem auto;
     padding: 0 1rem;
   }
-  .card {
+
+  .glass-card {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
-    background-color: #f9f9f9;
-    border-left: 4px solid #007acc;
-    border-radius: 10px;
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
     padding: 2rem;
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
   }
-  .card-column {
+
+  .glass-column {
     flex: 1;
     min-width: 280px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   }
+
   h1, h2 {
-    color: #222;
     font-weight: 600;
+    color: #222;
     margin-bottom: 1rem;
   }
+
   ul.contact-list {
     list-style: none;
     padding-left: 0;
   }
+
   ul.contact-list li {
     margin-bottom: 1rem;
   }
+
   .coming-soon {
-    background: repeating-linear-gradient(135deg, #f4f4f4, #f4f4f4 10px, #f9f9f9 10px, #f9f9f9 20px);
-    border-radius: 8px;
-    padding: 1rem;
+    font-style: italic;
+    background: linear-gradient(135deg, rgba(240, 240, 240, 0.3), rgba(255, 255, 255, 0.3));
+    border: 1px dashed #ccc;
+  }
+
+  a {
+    color: #007acc;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 </style>
 
 <section>
   <h1>📬 Contact Me</h1>
-  <p>I’m always open to meaningful collaborations in <strong>AI/ML</strong>, <strong>software engineering</strong>, or <strong>data-driven innovation</strong>. Whether you're hiring, partnering, or just curious—reach out!</p>
+  <p>I’m always open to impactful opportunities in <strong>AI/ML</strong>, <strong>software engineering</strong>, or <strong>data-driven innovation</strong>. Whether you're hiring, collaborating, or exploring ideas, feel free to connect.</p>
 </section>
 
-<section class="card">
-  <div class="card-column">
+<section class="glass-card">
+  <div class="glass-column">
     <h2>🤝 Let’s Connect</h2>
     <ul class="contact-list">
       <li>📧 <strong>Email:</strong> <a href="mailto:daboramidu93@gmail.com">daboramidu93@gmail.com</a></li>
       <li>📞 <strong>Phone:</strong> <a href="tel:+254795455796">+254 795 455 796</a></li>
-      <li>💼 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/adabor/" target="_blank">linkedin.com/in/amidu-dabor</a></li>
+      <li>💼 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/adabor/" target="_blank">linkedin.com/in/adabor</a></li>
       <li>🐙 <strong>GitHub:</strong> <a href="https://github.com/Amidu-Dabor" target="_blank">github.com/Amidu-Dabor</a></li>
       <li>📁 <strong>Resume:</strong> <a href="/resume/">View Resume</a></li>
     </ul>
   </div>
 
-  <div class="card-column coming-soon">
+  <div class="glass-column coming-soon">
     <h2>📝 Contact Form</h2>
-    <p><em>Coming soon:</em> A fully interactive contact form for direct communication.</p>
-    <p>Stay tuned for a smarter, accessible way to message me directly from this site.</p>
+    <p>Coming soon: A direct messaging form to connect with me securely and conveniently.</p>
+    <p>This space will allow you to submit your name, email, and message—without leaving the page.</p>
   </div>
 </section>
 
 <section>
-  <p style="text-align: center;">Thank you for visiting. Let’s build something impactful together.</p>
+  <p style="text-align: center;">Thank you for visiting. Let’s build something exceptional together.</p>
 </section>
