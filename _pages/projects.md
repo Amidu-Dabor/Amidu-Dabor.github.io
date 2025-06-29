@@ -55,7 +55,7 @@ Explore a curated list of AI, ML, and full-stack software projects focused on so
 <div class="project-card">
   <h3>👥 HR Analytics Dashboard – Workforce Insights</h3>
   <p>Interactive Tableau dashboard displaying employee demographics, salary distribution, and departmental stats.</p>
-  <p><strong>Skills:</strong> Tableau, Calculated Fields, Dashboard Design</p>
+  <p><strong>Tools/Skills:</strong> Tableau, Calculated Fields, Interactive Dashboard Design</p>
   <img src="/assets/images/summary-hr-dashboard.png" class="project-thumb">
   <img src="/assets/images/detailed-hr-dashboard.png" class="project-thumb">
   <video class="project-video" controls>
@@ -66,9 +66,22 @@ Explore a curated list of AI, ML, and full-stack software projects focused on so
 </div>
 
 <div class="project-card">
+  <h3>🏨 Hotel Management Dashboard – Business Intelligence</h3>
+  <p>Power BI dashboard providing insights into hotel operations, customer bookings, and revenue patterns using the AtliQ Grands dataset.</p>
+  <p><strong>Tools/Skills:</strong> Power BI, DAX, Data Modeling, Power Query, Business Analytics</p>
+  <img src="/assets/images/hotel-management-dashboard-1.png" class="project-thumb">
+  <img src="/assets/images/hotel-management-dashboard-2.png" class="project-thumb">
+  <video class="project-video" controls>
+    <source src="/assets/videos/hotel-dashboard-demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  📈 <a href="https://drive.google.com/drive/folders/1hHDVxkekHwxD8V3CzFAZRS4zcltBSxjT?usp=sharing" target="_blank">View Dashboard & Report</a>
+</div>
+
+<div class="project-card">
   <h3>🎓 Academic AI Assistant</h3>
   <p>RAG-powered AI chatbot for personalized academic support using modern NLP frameworks.</p>
-  <p><strong>Skills:</strong> Python, LangChain, Hugging Face, Gradio</p>
+  <p><strong>Tools/Skills:</strong> Python, Transformers, OpenAI, Anthropic, LangChain, Hugging Face, Gradio, Weights & Biases, Chromadb, Vector embeddings</p>
   <video class="project-video" controls>
     <source src="/assets/videos/academic-ai-assistant-demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
@@ -79,7 +92,7 @@ Explore a curated list of AI, ML, and full-stack software projects focused on so
 <div class="project-card">
   <h3>🔄 Python-to-C++ Code Converter</h3>
   <p>LLM-powered converter translating Python code to C++ syntax for optimized system deployment.</p>
-  <p><strong>Skills:</strong> NLP, Transformers, Python, C++</p>
+  <p><strong>Tools/Skills:</strong> NLP, Transformers, Python, Bash coomand, C++, Gradio</p>
   <video class="project-video" controls>
     <source src="/assets/videos/python-to-cpp-demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
@@ -90,7 +103,7 @@ Explore a curated list of AI, ML, and full-stack software projects focused on so
 <div class="project-card">
   <h3>🤖 Autonomous Deal-Finder AI</h3>
   <p>Multi-agent system scanning RSS feeds for real-time investment and tech deal alerts.</p>
-  <p><strong>Skills:</strong> Python, Agent Systems, Automation</p>
+  <p><strong>Tools/Skills:</strong> Python, Agent Systems, Automation, Gradio, Pushover (sms alert)</p>
   <video class="project-video" controls>
     <source src="/assets/videos/deal-finder-demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
@@ -101,7 +114,7 @@ Explore a curated list of AI, ML, and full-stack software projects focused on so
 <div class="project-card">
   <h3>🧬 Cancer Diagnosis Classifier</h3>
   <p>XGBoost model predicting tumor malignancy based on clinical features.</p>
-  <p><strong>Skills:</strong> XGBoost, Scikit-learn, Pandas</p>
+  <p><strong>Tools/Skills:</strong> XGBoost, Scikit-learn, Pandas, Matplotlib, Data Preprocessing</p>
   <video class="project-video" controls>
     <source src="/assets/videos/cancer-classifier-demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
@@ -112,7 +125,7 @@ Explore a curated list of AI, ML, and full-stack software projects focused on so
 <div class="project-card">
   <h3>🛒 Customer Purchase Predictor</h3>
   <p>Forecasts customer behavior and purchase likelihood using classification models.</p>
-  <p><strong>Skills:</strong> Python, Feature Engineering, Predictive Modeling</p>
+  <p><strong>Tools/Skills:</strong> Python, Feature Engineering, Predictive Modeling, Matplotlib, Data Preprocessing</p>
   <video class="project-video" controls>
     <source src="/assets/videos/customer-predictor-demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
@@ -123,7 +136,7 @@ Explore a curated list of AI, ML, and full-stack software projects focused on so
 <div class="project-card">
   <h3>📊 Startup Profit Analyzer</h3>
   <p>Regression model analyzing potential profit outcomes for early-stage startups.</p>
-  <p><strong>Skills:</strong> Regression, Scikit-learn, Data Analysis</p>
+  <p><strong>Tools/Skills:</strong> Regression, Scikit-learn, Data Analysis, Matplotlib, Data Preprocessing</p>
   <video class="project-video" controls>
     <source src="/assets/videos/startup-profit-analyzer.mp4" type="video/mp4">
     Your browser does not support the video tag.
