@@ -13,25 +13,26 @@ classes: wide
     color: #333;
     line-height: 1.6;
   }
-  h1, h2, h3 {
-    font-weight: 600;
-    line-height: 1.3;
-    margin-bottom: 0.8rem;
+  h1, h2, h3, p, li {
+    font-size: 15px;
   }
-  h1 { font-size: 1.8rem; }
-  h2 { font-size: 1.4rem; }
-  h3 { font-size: 1.2rem; }
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #222;
+  }
   p, li {
-    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
     max-width: 750px;
-    color: #444;
   }
   ul {
-    padding-left: 1.2em;
+    padding-left: 1.3em;
+    margin-bottom: 1.2rem;
   }
   section {
-    padding: 0 0.5rem;
     margin-bottom: 2.5rem;
+    padding: 0 1rem;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
@@ -49,17 +50,17 @@ classes: wide
   }
   .project-card {
     flex: 0 0 auto;
-    width: 290px;
+    width: 300px;
     border-radius: 12px;
     background: linear-gradient(145deg, #ffffff, #f0f0f0);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
-    padding: 1.1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 1.2rem;
     transform-style: preserve-3d;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   .project-card:hover {
-    transform: translateY(-8px) rotateX(2deg) rotateY(1deg);
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px) rotateX(3deg) rotateY(2deg);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
   }
   .project-card h3 {
     margin-top: 0;
@@ -68,7 +69,6 @@ classes: wide
     display: inline-block;
     margin-top: 0.5rem;
     text-decoration: underline;
-    font-weight: 500;
   }
   .carousel-nav {
     position: absolute;
@@ -81,15 +81,17 @@ classes: wide
     z-index: 1;
     border-radius: 50%;
   }
-  .carousel-nav.left { left: 0.5rem; }
-  .carousel-nav.right { right: 0.5rem; }
-
+  .carousel-nav.left {
+    left: 0.5rem;
+  }
+  .carousel-nav.right {
+    right: 0.5rem;
+  }
   .category-filter {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
     margin-bottom: 1.5rem;
-    justify-content: center;
   }
   .category-filter button {
     background: #e0e0e0;
@@ -98,7 +100,6 @@ classes: wide
     border-radius: 20px;
     cursor: pointer;
     transition: background 0.3s;
-    font-size: 0.9rem;
   }
   .category-filter button.active {
     background: #007acc;
@@ -107,14 +108,14 @@ classes: wide
 </style>
 
 <section>
-  <p><strong>Hi, I’m Amidu Dabor</strong>, a Software and AI/ML Engineer passionate about building scalable, ethical, and intelligent systems that solve real-world problems.</p>
+  <p>I’m <strong>Amidu Dabor</strong>, a Software and AI/ML Engineer passionate about building scalable, ethical, and intelligent systems that solve real-world problems.</p>
 
-  <p>I bring over three years of experience in telecom IT, AI engineering, backend systems, and cloud automation. My work spans from developing full-stack applications to AI-powered tools and automation pipelines.</p>
+  <p>With 3+ years of hands-on experience in <strong>telecom IT</strong>, <strong>AI engineering</strong>, <strong>LLM development</strong>, <strong>backend-focused full-stack systems</strong>, and <strong>cloud automation</strong>, I bring a proven expertise of delivering production-grade solutions across high-impact sectors.</p>
 
-  <p>I recently completed my MSc in Information Systems and Technology (Software Engineering concentration) at USIU-Africa, where I built a RAG-based academic AI assistant. I specialize in Python (Django, Flask), LangChain, Hugging Face, Terraform, Ansible, Docker, AWS, Azure, and more.</p>
+  <p>I recently concluded my <strong>MSc in Information Systems and Technology</strong> (Software Engineering concentration) at <strong>USIU-Africa</strong>, where I designed a RAG-based academic AI assistant. I specialize in tools and platforms such as Python (Django, Flask), Hugging Face, LangChain, Terraform, Ansible, AWS, Azure, CI/CD pipelines, Docker, TensorFlow, Scikit-learn, Power BI, and Tableau.</p>
 
   <p>
-    🔍 <a href="/about/">More about me</a><br>
+    🔍 <a href="/about/">Learn more about me</a><br>
     🚀 <a href="/projects/">Browse my featured projects</a><br>
     📬 <a href="mailto:daboramidu93@gmail.com">Contact me via email</a>
   </p>
@@ -173,7 +174,7 @@ classes: wide
     carousel.style.transform = `translateX(-${scrollAmount}px)`;
   }
 
-  setInterval(() => scrollCarousel(1), 7000);
+  setInterval(() => scrollCarousel(1), 6000);
 
   function filterCategory(cat) {
     document.querySelectorAll('.category-filter button').forEach(btn => btn.classList.remove('active'));
@@ -189,11 +190,11 @@ classes: wide
 <section>
   <h2>🔧 What I Work On</h2>
   <ul>
-    <li><strong>AI & Machine Learning:</strong> LLMs, RAG, transformers, NLP, model optimization, TensorFlow, Hugging Face, LangChain</li>
-    <li><strong>Backend Engineering:</strong> Django, Flask, microservices, REST APIs, serverless systems</li>
-    <li><strong>Cloud & DevOps:</strong> AWS, Azure, GCP, Docker, Terraform, Ansible, CI/CD, GitHub Actions</li>
-    <li><strong>Data Science:</strong> Pandas, NumPy, Scikit-learn, EDA, Power BI, Tableau</li>
-    <li><strong>Cross-Platform:</strong> Flutter, JavaScript, C++, R, Java, system scripting</li>
+    <li><strong>AI & Machine Learning:</strong> LLM fine-tuning, AI automation, model optimization, generative AI, RAG workflows, MCP, Transformers, Hugging Face, LangChain, TensorFlow, Keras, PyTorch, Scikit-learn, Gradio</li>
+    <li><strong>Backend & Software Engineering:</strong> Python (Django, Flask), REST APIs, microservices, serverless architectures, SQL/NoSQL, Git</li>
+    <li><strong>Cloud & DevOps:</strong> Terraform, Ansible, Azure ARM templates, Bash/PowerShell scripting, GitHub Actions, AWS, Azure, GCP, Modal</li>
+    <li><strong>Data Science & Analytics:</strong> Pandas, NumPy, SciPy, Matplotlib, Seaborn, time series, EDA, feature engineering, Power BI, Tableau, Weights & Biases</li>
+    <li><strong>Additional:</strong> Flutter (Mobile), JavaScript, Java, R, C++, creative writing, cross-functional collaboration</li>
   </ul>
 </section>
 
@@ -201,5 +202,5 @@ classes: wide
 
 <section>
   <h2>📬 Let’s Connect</h2>
-  <p>If you're building something meaningful—or want to—let’s chat. I'm open to roles, research, collaborations, and consulting. Reach out via <a href="mailto:daboramidu93@gmail.com">email</a> or connect on <a href="https://www.linkedin.com/in/adabor/" target="_blank">LinkedIn</a>.</p>
+  <p>I’m always open to collaborations, impactful work, or just chatting tech. Feel free to reach out via <a href="mailto:daboramidu93@gmail.com">email</a> or connect with me on <a href="https://www.linkedin.com/in/adabor/" target="_blank">LinkedIn</a>.</p>
 </section>
