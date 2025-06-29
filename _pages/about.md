@@ -119,10 +119,5 @@ author_profile: true
   <p>When I’m not coding, I enjoy creative writing, exploring emerging technologies, and engaging with cutting-edge research and global tech communities. These passions fuel my drive to stay current, continuously grow, and build meaningful solutions.</p>
 
   <p>I’m always open to collaborative opportunities, research partnerships, and impact-driven roles that align with my expertise in AI, backend systems, and cloud-native software. I bring not only technical depth but also the ability to work independently, take initiative, and deliver results with minimal supervision.</p>
-
-  <p>
-    📧 <a href="mailto:daboramidu93@gmail.com">daboramidu93@gmail.com</a><br>
-    🔗 <a href="https://www.linkedin.com/in/adabor/" target="_blank">LinkedIn Profile</a><br>
-    📂 <a href="/projects/">Explore My Projects</a>
-  </p>
+  
 </section>
