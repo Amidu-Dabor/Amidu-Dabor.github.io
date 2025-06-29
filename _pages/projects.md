@@ -75,7 +75,7 @@ Explore a curated list of AI, ML, and full-stack software projects focused on so
     <source src="/assets/videos/hotel-dashboard-demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  📈 <a href="https://drive.google.com/drive/folders/1hHDVxkekHwxD8V3CzFAZRS4zcltBSxjT?usp=sharing" target="_blank">View Dashboard & Report</a>
+  📈 <a href="https://drive.google.com/file/d/16eR45KmN1BhpGCaZCvlkmGCtH_LaBfY8/view?usp=sharing" target="_blank">View Dashboard & Report</a>
 </div>
 
 <div class="project-card">
