@@ -21,7 +21,7 @@ author_profile: true
 
   .glass-card {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 2rem;
     backdrop-filter: blur(12px);
     background: rgba(255, 255, 255, 0.25);
@@ -30,11 +30,11 @@ author_profile: true
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
     padding: 2rem;
     overflow: hidden;
+    flex-wrap: wrap;
   }
 
   .glass-column {
-    flex: 1;
-    min-width: 280px;
+    flex: 1 1 45%;
     background: rgba(255, 255, 255, 0.4);
     border-radius: 12px;
     padding: 1.5rem;
@@ -70,6 +70,12 @@ author_profile: true
   a:hover {
     text-decoration: underline;
   }
+
+  @media (max-width: 768px) {
+    .glass-column {
+      flex: 1 1 100%;
+    }
+  }
 </style>
 
 <section>
@@ -78,6 +84,7 @@ author_profile: true
 </section>
 
 <section class="glass-card">
+  <!-- Left Column -->
   <div class="glass-column">
     <h2>🤝 Let’s Connect</h2>
     <ul class="contact-list">
@@ -89,6 +96,7 @@ author_profile: true
     </ul>
   </div>
 
+  <!-- Right Column -->
   <div class="glass-column coming-soon">
     <h2>📝 Contact Form</h2>
     <p>Coming soon: A direct messaging form to connect with me securely and conveniently.</p>
