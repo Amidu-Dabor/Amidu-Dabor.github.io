@@ -2,106 +2,141 @@
 layout: single
 author_profile: true
 title: "👋 Welcome"
-description: "Portfolio of Amidu Dabor - Software & AI/ML Engineer | Data Scientist"
+description: "Portfolio of Amidu Dabor – Software & AI/ML Engineer | Data Scientist"
 classes: wide
 ---
 
+<!-- Global style refinements for visual clarity and structure -->
 <style>
-  h1, h2 {
-    font-size: 1.8rem;
+  :root {
+    --primary: #007acc;
+    --bg: #ffffff;
+    --bg-alt: #f5f7fa;
+    --text: #222;
+    --text-light: #666;
+    --highlight: #e0e0e0;
+    --border: #ddd;
+    --radius: 12px;
   }
-  p, li {
-    font-size: 1rem;
-    line-height: 1.6;
+
+  body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background-color: var(--bg);
+    line-height: 1.7;
   }
-  ul {
-    padding-left: 1.2em;
-  }
+
   section {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3rem;
+    padding: 0 1rem;
   }
-  .carousel-container {
-    position: relative;
-    overflow: hidden;
-    perspective: 1000px;
+
+  h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    border-left: 5px solid var(--primary);
+    padding-left: 0.75rem;
   }
-  .carousel {
-    display: flex;
-    transition: transform 0.5s ease;
-    gap: 1rem;
-    will-change: transform;
+
+  p, li {
+    font-size: 1.05rem;
   }
+
+  ul {
+    padding-left: 1.4rem;
+  }
+
+  .btn-link {
+    display: inline-block;
+    margin: 0.4rem 0;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary);
+    color: white !important;
+    text-decoration: none;
+    border-radius: var(--radius);
+    transition: background 0.3s ease;
+  }
+
+  .btn-link:hover {
+    background-color: #005fa3;
+  }
+
   .project-card {
     flex: 0 0 auto;
     width: 300px;
-    border-radius: 12px;
-    background: linear-gradient(145deg, #ffffff, #f0f0f0);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    padding: 1.2rem;
-    transform-style: preserve-3d;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 1rem;
+    background: linear-gradient(145deg, #fff, var(--bg-alt));
+    border-radius: var(--radius);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    position: relative;
   }
+
   .project-card:hover {
-    transform: translateY(-10px) rotateX(3deg) rotateY(2deg);
-    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px) scale(1.01);
   }
-  .project-card h3 {
-    margin-top: 0;
+
+  .carousel-container {
+    overflow: hidden;
+    position: relative;
   }
-  .project-card a {
-    display: inline-block;
-    margin-top: 0.5rem;
-    text-decoration: underline;
+
+  .carousel {
+    display: flex;
+    gap: 1rem;
+    transition: transform 0.5s ease;
   }
+
   .carousel-nav {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 0.5rem;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    padding: 0.4rem;
     cursor: pointer;
-    z-index: 1;
     border-radius: 50%;
+    z-index: 10;
   }
+
   .carousel-nav.left {
-    left: 0.5rem;
+    left: -0.5rem;
   }
+
   .carousel-nav.right {
-    right: 0.5rem;
+    right: -0.5rem;
   }
+
   .category-filter {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
     margin-bottom: 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
   }
+
   .category-filter button {
-    background: #e0e0e0;
+    background: var(--highlight);
     border: none;
     padding: 0.4rem 1rem;
     border-radius: 20px;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: all 0.2s ease;
   }
+
   .category-filter button.active {
-    background: #007acc;
+    background: var(--primary);
     color: white;
   }
 </style>
 
 <section>
-  <p>I’m <strong>Amidu Dabor</strong>, a Software and AI/ML Engineer passionate about building scalable, ethical, and intelligent systems that solve real-world problems.</p>
+  <p><strong>Amidu Dabor</strong> is a Software and AI/ML Engineer passionate about creating scalable, intelligent, and ethical software systems.</p>
+  <p>He brings over 3 years of experience in <strong>telecom IT</strong>, <strong>AI/LLM engineering</strong>, <strong>full-stack systems</strong>, and <strong>cloud infrastructure</strong>, and recently completed an MSc in Information Systems and Technology at <strong>USIU-Africa</strong> with a thesis on an AI-powered academic assistant.</p>
+  <p>His toolkit includes Python, Django, LangChain, Hugging Face, Terraform, Docker, CI/CD, Power BI, and more.</p>
 
-  <p>With 3+ years of hands-on experience in <strong>telecom IT</strong>, <strong>AI engineering</strong>, <strong>LLM development</strong>, <strong>backend-focused full-stack systems</strong>, and <strong>cloud automation</strong>, I bring a proven expertise of delivering production-grade solutions across high-impact sectors.</p>
-
-  <p>I recently concluded my <strong>MSc in Information Systems and Technology</strong> (Software Engineering concentration) at <strong>USIU-Africa</strong>, where I designed a RAG-based academic AI assistant. I specialize in tools and platforms such as Python (Django, Flask), Hugging Face, LangChain, Terraform, Ansible, AWS, Azure, CI/CD pipelines, Docker, TensorFlow, Scikit-learn, Power BI, and Tableau.</p>
-
-  <p>
-    🔍 <a href="/about/">Learn more about me</a><br>
-    🚀 <a href="/projects/">Browse my featured projects</a><br>
-    📬 <a href="mailto:daboramidu93@gmail.com">Contact me via email</a>
-  </p>
+  <a href="/about/" class="btn-link">Learn More About Me</a>
+  <a href="/projects/" class="btn-link">Browse My Projects</a>
+  <a href="mailto:daboramidu93@gmail.com" class="btn-link">Contact Me</a>
 </section>
 
 <hr>
@@ -122,23 +157,23 @@ classes: wide
     <div class="carousel" id="carousel">
       <div class="project-card ai">
         <h3>Academic AI Assistant</h3>
-        <p>A RAG-powered chatbot offering contextualized academic support.</p>
-        <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
+        <p>RAG-based academic chatbot powered by LangChain & Hugging Face.</p>
+        <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank" class="btn-link">View Project</a>
       </div>
       <div class="project-card ai backend">
         <h3>Python-to-C++ Converter</h3>
-        <p>LLM-powered translator converting Python code to C++ syntax.</p>
-        <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
+        <p>LLM tool translating Python code into C++ syntax efficiently.</p>
+        <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank" class="btn-link">Explore Tool</a>
       </div>
       <div class="project-card data">
         <h3>Hotel BI Dashboard</h3>
-        <p>Power BI dashboard for hotel analytics and business insights.</p>
-        <a href="https://drive.google.com/drive/folders/1hHDVxkekHwxD8V3CzFAZRS4zcltBSxjT?usp=sharing" target="_blank">View Report</a>
+        <p>Operational insights via Power BI for hospitality management.</p>
+        <a href="https://drive.google.com/drive/folders/1hHDVxkekHwxD8V3CzFAZRS4zcltBSxjT?usp=sharing" target="_blank" class="btn-link">View Dashboard</a>
       </div>
       <div class="project-card ai cloud">
         <h3>Deal-Finder AI</h3>
-        <p>Multi-agent system monitoring RSS feeds for smart alerts.</p>
-        <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank">View Project</a>
+        <p>Multi-agent alert system scanning real-time RSS feeds.</p>
+        <a href="https://github.com/Amidu-Dabor/ProjectsEnv" target="_blank" class="btn-link">Explore System</a>
       </div>
     </div>
     <button class="carousel-nav right" onclick="scrollCarousel(1)">❯</button>
@@ -157,13 +192,14 @@ classes: wide
     carousel.style.transform = `translateX(-${scrollAmount}px)`;
   }
 
-  setInterval(() => scrollCarousel(1), 6000);
+  setInterval(() => scrollCarousel(1), 7000);
 
-  function filterCategory(cat) {
+  function filterCategory(category) {
     document.querySelectorAll('.category-filter button').forEach(btn => btn.classList.remove('active'));
-    document.querySelector(`.category-filter button[onclick*="${cat}"]`).classList.add('active');
+    event.target.classList.add('active');
+
     document.querySelectorAll('.project-card').forEach(card => {
-      card.style.display = (cat === 'all' || card.classList.contains(cat)) ? 'block' : 'none';
+      card.style.display = category === 'all' || card.classList.contains(category) ? 'block' : 'none';
     });
   }
 </script>
@@ -173,11 +209,11 @@ classes: wide
 <section>
   <h2>🔧 What I Work On</h2>
   <ul>
-    <li><strong>AI & Machine Learning:</strong> LLM fine-tuning, AI automation, model optimization, generative AI, RAG workflows, MCP, Transformers, Hugging Face, LangChain, TensorFlow, Keras, PyTorch, Scikit-learn, Gradio</li>
-    <li><strong>Backend & Software Engineering:</strong> Python (Django, Flask), REST APIs, microservices, serverless architectures, SQL/NoSQL, Git</li>
-    <li><strong>Cloud & DevOps:</strong> Terraform, Ansible, Azure ARM templates, Bash/PowerShell scripting, GitHub Actions, AWS, Azure, GCP, Modal</li>
-    <li><strong>Data Science & Analytics:</strong> Pandas, NumPy, SciPy, Matplotlib, Seaborn, time series, EDA, feature engineering, Power BI, Tableau, Weights & Biases</li>
-    <li><strong>Additional:</strong> Flutter (Mobile), JavaScript, Java, R, C++, creative writing, cross-functional collaboration</li>
+    <li><strong>AI & ML:</strong> Transformers, LangChain, Hugging Face, TensorFlow, PyTorch, Gradio</li>
+    <li><strong>Backend:</strong> Django, Flask, REST APIs, microservices, CI/CD</li>
+    <li><strong>Cloud & DevOps:</strong> AWS, Azure, GCP, Terraform, Ansible, Docker</li>
+    <li><strong>Data & Analytics:</strong> Pandas, Scikit-learn, XGBoost, Power BI, Tableau</li>
+    <li><strong>Cross-Platform:</strong> Flutter, R, JavaScript, C++, collaboration & writing</li>
   </ul>
 </section>
 
@@ -185,5 +221,6 @@ classes: wide
 
 <section>
   <h2>📬 Let’s Connect</h2>
-  <p>I’m always open to collaborations, impactful work, or just chatting tech. Feel free to reach out via <a href="mailto:daboramidu93@gmail.com">email</a> or connect with me on <a href="https://www.linkedin.com/in/adabor/" target="_blank">LinkedIn</a>.</p>
+  <p>I’m available for freelance, full-time, or collaborative roles in AI, software, or cloud systems.</p>
+  <p>Connect with me via <a href="mailto:daboramidu93@gmail.com">email</a> or on <a href="https://linkedin.com/in/adabor" target="_blank">LinkedIn</a>.</p>
 </section>
