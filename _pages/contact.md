@@ -1,6 +1,6 @@
 ---
 permalink: /contact/
-<!-- title: "Contact" -->
+<!--title: "Contact"-->
 layout: single
 author_profile: true
 ---
