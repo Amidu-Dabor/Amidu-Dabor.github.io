@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+<!-- title: "Projects" -->
 permalink: /projects/
 layout: single
 author_profile: true
@@ -46,10 +46,10 @@ author_profile: true
   }
 </style>
 
+## 🚀 Featured Projects
+
 Explore a curated list of AI, ML, and full-stack software projects focused on solving real-world challenges.  
 👇 Scroll to explore project highlights or visit my [GitHub Repository](https://github.com/Amidu-Dabor/ProjectsEnv) for source code, notebooks, and documentation.
-
-## 🚀 Featured Projects
 
 ---
 
