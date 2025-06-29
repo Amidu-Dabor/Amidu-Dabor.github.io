@@ -1,5 +1,4 @@
 ---
-title: "Professional Summary"
 permalink: /about/
 layout: single
 author_profile: true
@@ -40,6 +39,7 @@ author_profile: true
 </style>
 
 <section>
+  <h2>Professional Summary</h2>
   <p>I’m <strong>Amidu Dabor</strong>, a Software and AI/ML Engineer engaged in building intelligent, ethical, and scalable systems that solve real-world problems. I recently <strong>concluded my Master of Science in Information Systems and Technology</strong> (Software Engineering concentration) at <strong>United States International University - Africa (USIU-Africa)</strong>, where I focused extensively on <strong>Artificial Intelligence, Large Language Models (LLMs), and intelligent agent systems</strong>.</p>
 
   <p>My thesis centered on the <strong>design and evaluation of an academic AI assistant</strong>, leveraging Retrieval-Augmented Generation (RAG), adaptive multi-agent collaboration, advanced prompt engineering, and serverless infrastructure to provide contextualized, intelligent academic support.</p>
