@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <style>
-  body, h1, h2, h3, p, li {
+  body, h1, h2, p, li {
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     font-size: 15px;
     color: #333;
@@ -17,18 +17,19 @@ author_profile: true
     margin: 0 auto 2.5rem auto;
     padding: 0 1rem;
   }
-  .contact-wrapper {
+  .card {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+    background-color: #f9f9f9;
+    border-left: 4px solid #007acc;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
   }
-  .contact-column {
+  .card-column {
     flex: 1;
     min-width: 280px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    padding: 1.5rem;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   }
   h1, h2 {
     color: #222;
@@ -42,19 +43,20 @@ author_profile: true
   ul.contact-list li {
     margin-bottom: 1rem;
   }
-  .contact-soon {
-    background: repeating-linear-gradient(135deg, #f0f0f0, #f0f0f0 10px, #fafafa 10px, #fafafa 20px);
-    border-left: 4px solid #007acc;
+  .coming-soon {
+    background: repeating-linear-gradient(135deg, #f4f4f4, #f4f4f4 10px, #f9f9f9 10px, #f9f9f9 20px);
+    border-radius: 8px;
+    padding: 1rem;
   }
 </style>
 
 <section>
   <h1>📬 Contact Me</h1>
-  <p>I’m always open to meaningful collaborations in <strong>AI/ML</strong>, <strong>software engineering</strong>, or <strong>data-driven innovation</strong>. Whether you're hiring, partnering, or curious—reach out!</p>
+  <p>I’m always open to meaningful collaborations in <strong>AI/ML</strong>, <strong>software engineering</strong>, or <strong>data-driven innovation</strong>. Whether you're hiring, partnering, or just curious—reach out!</p>
 </section>
 
-<section class="contact-wrapper">
-  <div class="contact-column">
+<section class="card">
+  <div class="card-column">
     <h2>🤝 Let’s Connect</h2>
     <ul class="contact-list">
       <li>📧 <strong>Email:</strong> <a href="mailto:daboramidu93@gmail.com">daboramidu93@gmail.com</a></li>
@@ -65,13 +67,13 @@ author_profile: true
     </ul>
   </div>
 
-  <div class="contact-column contact-soon">
+  <div class="card-column coming-soon">
     <h2>📝 Contact Form</h2>
-    <p><em>Coming soon: a fully interactive message form for direct communication.</em></p>
-    <p>If you'd prefer a personal message experience, stay tuned — a smart contact form is on the way!</p>
+    <p><em>Coming soon:</em> A fully interactive contact form for direct communication.</p>
+    <p>Stay tuned for a smarter, accessible way to message me directly from this site.</p>
   </div>
 </section>
 
 <section>
-  <p style="text-align: center;">Thank you for visiting. I look forward to building something exceptional with you.</p>
+  <p style="text-align: center;">Thank you for visiting. Let’s build something impactful together.</p>
 </section>
