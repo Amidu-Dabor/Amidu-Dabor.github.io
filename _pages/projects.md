@@ -53,7 +53,7 @@ Scroll to explore project highlights or visit my [GitHub Repository](https://git
 ---
 
 <div class="project-card">
-  <h3>👥 HR Analytics Dashboard – Workforce Insights</h3>
+  <h3>HR Analytics Dashboard – Workforce Insights</h3>
   <p>Interactive Tableau dashboard displaying employee demographics, salary distribution, and departmental stats.</p>
   <p><strong>Tools/Skills:</strong> Tableau, Calculated Fields, Interactive Dashboard Design</p>
   <img src="/assets/images/summary-hr-dashboard.png" class="project-thumb">
@@ -79,7 +79,7 @@ Scroll to explore project highlights or visit my [GitHub Repository](https://git
 </div>
 
 <div class="project-card">
-  <h3>🎓 Academic AI Assistant</h3>
+  <h3>Academic AI Assistant</h3>
   <p>RAG-powered AI chatbot for personalized academic support using modern NLP frameworks.</p>
   <p><strong>Tools/Skills:</strong> Python, Transformers, OpenAI, Anthropic, LangChain, Hugging Face, Gradio, Weights & Biases, Chromadb, Vector embeddings</p>
   <video class="project-video" controls>
