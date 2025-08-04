@@ -40,15 +40,16 @@ author_profile: true
 
 <section>
   <h2>Professional Summary</h2>
-  <p>I’m <strong>Amidu Dabor</strong>, a Software and AI/ML Engineer engaged in building intelligent, ethical, and scalable systems that solve real-world problems. I recently <strong>concluded my Master of Science in Information Systems and Technology</strong> (Software Engineering concentration) at <strong>United States International University - Africa (USIU-Africa)</strong>, where I focused extensively on <strong>Artificial Intelligence, Large Language Models (LLMs), and intelligent agent systems</strong>.</p>
+  <p>I'm Amidu Dabor, a Software and AI/ML Engineer passionate about building intelligent, scalable, and ethically aligned systems that solve real-world problems. I recently completed my Master of Science in Information Systems and Technology (Software Engineering focus) at United States International University - Africa, where I specialized in software engineering and large-scale software development, Artificial Intelligence, Machine Learning, Large Language Models (LLMs), and intelligent agent systems.
 
-  <p>My thesis centered on the <strong>design and evaluation of an academic AI assistant</strong>, leveraging Retrieval-Augmented Generation (RAG), adaptive multi-agent collaboration, advanced prompt engineering, and serverless infrastructure to provide contextualized, intelligent academic support.</p>
+With over 5 years of multidisciplinary experience spanning telecommunications, ICT education, backend development, academic research, and applied machine learning, I bring a strong track record of designing and deploying high-impact, data-driven solutions. My technical toolkit includes Python, JavaScript, SQL, TensorFlow, Keras, Scikit-learn, Django, Flask, FastAPI, and deployment across platforms like GCP, AWS, Azure, Modal, Gradio, and Weights & Biases. I excel in full-stack development (backend-focused), machine learning operations, and transforming complex datasets into actionable insights, always focused on delivering measurable business value through innovation and collaboration, bringing a rare blend of strong software engineering, data-centric thinking, and the ability to work independently with little or no supervision.
+  </p>
 
-  <p>With over <strong>3 years of applied experience</strong>, I have contributed to and led high-impact solutions in AI, backend systems, and cloud-native platforms across academia, telecoms, and innovation ecosystems. I bring a rare blend of <strong>strong software engineering, data-centric thinking, and the ability to work independently or collaboratively</strong>, always driving toward results and quality.</p>
+  <p>My MSc. research project is centered on the <strong>design and evaluation of an academic AI assistant</strong>, leveraging Retrieval-Augmented Generation (RAG), adaptive multi-agent collaboration, advanced prompt engineering, and serverless infrastructure to provide contextualized, intelligent academic support.</p>
 </section>
 
 <section class="highlight-block">
-  <h2>🧠 My Expertise</h2>
+  <h2>My Expertise</h2>
   <ul>
     <li><strong>Artificial Intelligence & Generative AI:</strong> Development and fine-tuning of LLM-based systems, optimization, RAG workflows, and responsible deployment using <em>TensorFlow, Keras, LangChain, Hugging Face, Python</em>.</li>
     <li><strong>Backend Engineering & DevOps:</strong> Building RESTful APIs, microservices, and automation pipelines with <em>Django, Flask, Docker, GitHub Actions, CI/CD</em> and infrastructure on <em>AWS, Azure</em>.</li>
@@ -58,7 +59,7 @@ author_profile: true
 </section>
 
 <section class="highlight-block">
-  <h2>🚀 Featured Projects</h2>
+  <h2>Featured Projects</h2>
   <ul>
     <li><strong>Academic AI Assistant:</strong> A RAG-powered academic chatbot offering personalized support and contextualized knowledge retrieval.</li>
     <li><strong>Autonomous Deal-Finder AI:</strong> A multi-agent system monitoring real-time feeds for investment alerts.</li>
@@ -70,7 +71,7 @@ author_profile: true
 </section>
 
 <section class="highlight-block">
-  <h2>💼 Professional Background</h2>
+  <h2>Professional Background</h2>
   <ul>
     <li><strong>Assistant IT/CVBS Engineer – QCell SL:</strong>
       <ul>
@@ -89,7 +90,7 @@ author_profile: true
 </section>
 
 <section class="highlight-block">
-  <h2>🎓 Education & Awards</h2>
+  <h2>Education/Honours/Recognitions</h2>
   <ul>
     <li><strong>MSc. Information Systems & Technology (Software Engineering)</strong>  
       <br><em>United States International University – Africa (USIU-Africa), Kenya – 2025</em>  
@@ -115,9 +116,9 @@ author_profile: true
 </section>
 
 <section>
-  <h2>📬 Let’s Connect</h2>
-  <p>When I’m not coding, I enjoy creative writing, exploring emerging technologies, and engaging with cutting-edge research and global tech communities. These passions fuel my drive to stay current, continuously grow, and build meaningful solutions.</p>
+  <h2>Let's Connect</h2>
+  <p>When I'm not coding, I enjoy creative writing, exploring emerging technologies, and engaging with cutting-edge research and global tech communities. These passions fuel my drive to stay current, continuously grow, and build meaningful solutions.</p>
 
-  <p>I’m always open to collaborative opportunities, research partnerships, and impact-driven roles that align with my expertise in AI, backend systems, and cloud-native software. I bring not only technical depth but also the ability to work independently, take initiative, and deliver results with minimal supervision.</p>
+  <p>I'm always open to collaborative opportunities, research partnerships, and impact-driven roles that align with my expertise in AI, backend systems, and cloud-native software. I bring not only technical depth but also the ability to work independently, take initiative, and deliver results with minimal supervision.</p>
   
 </section>
