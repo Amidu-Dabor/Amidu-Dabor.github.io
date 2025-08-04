@@ -42,7 +42,7 @@ author_profile: true
   <h2>Professional Summary</h2>
   <p>I'm Amidu Dabor, a Software and AI/ML Engineer passionate about building intelligent, scalable, and ethically aligned systems that solve real-world problems. I recently completed my Master of Science in Information Systems and Technology (Software Engineering focus) at United States International University - Africa, where I specialized in software engineering and large-scale software development, Artificial Intelligence, Machine Learning, Large Language Models (LLMs), and intelligent agent systems.
 
-With over 5 years of multidisciplinary experience spanning telecommunications, ICT education, backend development, academic research, and applied machine learning, I bring a strong track record of designing and deploying high-impact, data-driven solutions. My technical toolkit includes Python, JavaScript, SQL, TensorFlow, Keras, Scikit-learn, Django, Flask, FastAPI, and deployment across platforms like GCP, AWS, Azure, Modal, Gradio, and Weights & Biases. I excel in full-stack development (backend-focused), machine learning operations, and transforming complex datasets into actionable insights, always focused on delivering measurable business value through innovation and collaboration, bringing a rare blend of strong software engineering, data-centric thinking, and the ability to work independently with little or no supervision.
+With over 5 years of multidisciplinary experience spanning telecommunications, ICT education, professional trainings/workshops, personal projects, backend development, academic research, and applied machine learning, I bring a strong track record of designing and deploying high-impact, data-driven solutions. My technical toolkit includes Python, JavaScript, SQL, TensorFlow, Keras, Scikit-learn, Django, Flask, FastAPI, and deployment across platforms like GCP, AWS, Azure, Modal, Gradio, and Weights & Biases. I excel in full-stack development (backend-focused), machine learning operations, and transforming complex datasets into actionable insights, always focused on delivering measurable business value through innovation and collaboration, bringing a rare blend of strong software engineering, data-centric thinking, and the ability to work independently with little or no supervision.
   </p>
 
   <p>My MSc. research project is centered on the <strong>design and evaluation of an academic AI assistant</strong>, leveraging Retrieval-Augmented Generation (RAG), adaptive multi-agent collaboration, advanced prompt engineering, and serverless infrastructure to provide contextualized, intelligent academic support.</p>
@@ -104,7 +104,7 @@ With over 5 years of multidisciplinary experience spanning telecommunications, I
       <br><em>Njala University, Sierra Leone – 2017</em>  
       <br><strong>Distinction</strong> | GPA: 4.7/5.0 | Top of Class
     </li>
-    <li><strong>Certifications:</strong>  
+    <li><strong>Course Certifications:</strong>  
       <ul>
         <li>LLM Engineering, Data Science Bootcamp – Udemy</li>
         <li>AI Bootcamp – Microsoft Learn Student Ambassadors</li>
