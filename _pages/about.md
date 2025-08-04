@@ -73,17 +73,34 @@ With over 5 years of multidisciplinary experience spanning telecommunications, I
 <section class="highlight-block">
   <h2>Professional Background</h2>
   <ul>
-    <li><strong>Assistant IT/CVBS Engineer – QCell SL:</strong>
+    <li><strong>AI/Machine Learning & Data Science - Academic Coursework, Professional Trainings/Workshops & Personal Projects – United States International University - Africa:</strong>
       <ul>
-        <li>Automated SFTP billing file retrievals using Python and Cron, increasing operational efficiency.</li>
-        <li>Integrated SDC devices with ECR systems for more accurate subscriber data handling.</li>
-        <li>Maintained 99.99% system uptime and provided responsive technical support.</li>
+        <li>Developed and deployed a FastAPI-based regression model to predict housing prices, integrating preprocessing, inference, and RESTful response delivery for real-time predictions./li>
+        <li>Designed and deployed BERT-based semantic similarity models using Hugging Face Transformers; achieved 73%+ accuracy by applying cosine similarity on [CLS] embeddings./li>
+        <li>Developed an AI RAG Assistant that delivers context-aware academic support using LangChain and vector-based retrieval./li>
+        <li>Conducted MLOps experiments with Weights & Biases, tracking training metrics, hyperparameters, and model performance to ensure traceability and reproducibility./li>
+        <li>Created predictive analytics models for customer purchase behaviour (conversion rate) and click-through rate (CTR) in social network ads, enabling targeted marketing strategies./li>
+        <li>Developed a cancer diagnosis classifier using XGBoost for binary tumor classification (malignant vs. benign)./li>
+        <li>Built an autonomous multi-agent deal finder with real-time RSS feed alerts for dynamic opportunity tracking (best deals)./li>
+        <li>Designed an LLM-based source-to-source code translator for optimizing software performance across programming languages./li>
+        <li>Built a Django + JavaScript web app for managing academic support tickets, including query logging and resolution tracking./li>
+        <li>Analyzed startup profitability with linear regression to uncover investment-impact patterns and financial correlations./li>
+        <li>Designed interactive dashboards with Power BI and Tableau for hotel management and to visualize HR workforce metrics, salaries, and operational KPIs./li>
       </ul>
     </li>
-    <li><strong>ICT Engineer & Trainer – Competency Development Services (CDS):</strong>
+    <li><strong>Assistant IT/Convergent Billing Systems (CVBS) Engineer – QCell SL:</strong>
       <ul>
-        <li>Delivered practical ICT courses that improved learner outcomes and digital fluency.</li>
-        <li>Maintained near-perfect device availability and led curriculum innovation for relevance and engagement.</li>
+        <li>Optimized service delivery by automating SFTP file detection and retrieval using Python and Cron jobs, demonstrating strong programming skills and a foundation for scalable algorithm development.</li>
+<li>Ensured 99.99% network uptime through proactive monitoring and prompt escalation of critical issues, reflecting robust analytical and problem-solving abilities essential for managing high-performance systems.</li>
+<li>Integrated a Subscriber Data Configuration (SDC) device with an ECR system to enhance data management and regulatory compliance, providing experience with meticulous data integration techniques relevant to predictive modelling.</li>
+<li>Delivered reliable customer service and support for thousands of subscribers, illustrating effective communication and cross-functional collaboration skills.</li>
+      </ul>
+    </li>
+    <li><strong>IT Trainer & System Support Engineer – Competency Development Services (CDS):</strong>
+      <ul>
+        <li>Enhanced student engagement and digital literacy through practical, interactive IT training, leveraging modern technological tools to foster analytical and technical skills.</li>
+<li>Maintained 99.9% device uptime through proactive IT support, underscoring strong attention to detail and problem-solving capabilities.</li>
+<li>Refined the ICT curriculum through continuous updates and the integration of current technology practices, supporting collaborative development and a data-driven approach to educational innovation.</li>
       </ul>
     </li>
   </ul>
