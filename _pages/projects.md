@@ -45,10 +45,10 @@ author_profile: true
   }
 </style>
 
-## 🚀 Featured Projects
+## Featured Projects
 
 Explore a curated list of AI, ML, and full-stack software projects focused on solving real-world challenges.  
-👇 Scroll to explore project highlights or visit my [GitHub Repository](https://github.com/Amidu-Dabor/ProjectsEnv) for source code, notebooks, and documentation.
+Scroll to explore project highlights or visit my [GitHub Repository](https://github.com/Amidu-Dabor/ProjectsEnv) for source code, notebooks, and documentation.
 
 ---
 
@@ -66,7 +66,7 @@ Explore a curated list of AI, ML, and full-stack software projects focused on so
 </div>
 
 <div class="project-card">
-  <h3>🏨 Hotel Management Dashboard – Business Intelligence</h3>
+  <h3>Hotel Management Dashboard – Business Intelligence</h3>
   <p>Power BI dashboard providing insights into hotel operations, customer bookings, and revenue patterns using the AtliQ Grands dataset.</p>
   <p><strong>Tools/Skills:</strong> Power BI, DAX, Data Modeling, Power Query, Business Analytics</p>
 <!--   <img src="/assets/images/hotel-management-dashboard-1.png" class="project-thumb"> -->
@@ -90,7 +90,7 @@ Explore a curated list of AI, ML, and full-stack software projects focused on so
 </div>
 
 <div class="project-card">
-  <h3>🔄 Python-to-C++ Code Converter</h3>
+  <h3>Python-to-C++ Code Converter</h3>
   <p>LLM-powered converter translating Python code to C++ syntax for optimized system deployment.</p>
   <p><strong>Tools/Skills:</strong> NLP, Transformers, Python, Bash coomand, C++, Gradio</p>
   <video class="project-video" controls>
@@ -101,7 +101,7 @@ Explore a curated list of AI, ML, and full-stack software projects focused on so
 </div>
 
 <div class="project-card">
-  <h3>🤖 Autonomous Deal-Finder AI</h3>
+  <h3>Autonomous Deal-Finder AI</h3>
   <p>Multi-agent system scanning RSS feeds for real-time investment and tech deal alerts.</p>
   <p><strong>Tools/Skills:</strong> Python, Agent Systems, Automation, Gradio, Pushover (sms alert)</p>
   <video class="project-video" controls>
@@ -112,7 +112,7 @@ Explore a curated list of AI, ML, and full-stack software projects focused on so
 </div>
 
 <div class="project-card">
-  <h3>🧬 Cancer Diagnosis Classifier</h3>
+  <h3>Cancer Diagnosis Classifier</h3>
   <p>XGBoost model predicting tumor malignancy based on clinical features.</p>
   <p><strong>Tools/Skills:</strong> XGBoost, Scikit-learn, Pandas, Matplotlib, Data Preprocessing</p>
   <video class="project-video" controls>
@@ -123,7 +123,7 @@ Explore a curated list of AI, ML, and full-stack software projects focused on so
 </div>
 
 <div class="project-card">
-  <h3>🛒 Customer Purchase Predictor</h3>
+  <h3>Customer Purchase Predictor</h3>
   <p>Forecasts customer behavior and purchase likelihood using classification models.</p>
   <p><strong>Tools/Skills:</strong> Python, Feature Engineering, Predictive Modeling, Matplotlib, Data Preprocessing</p>
   <video class="project-video" controls>
@@ -134,7 +134,7 @@ Explore a curated list of AI, ML, and full-stack software projects focused on so
 </div>
 
 <div class="project-card">
-  <h3>📊 Startup Profit Analyzer</h3>
+  <h3>Startup Profit Analyzer</h3>
   <p>Regression model analyzing potential profit outcomes for early-stage startups.</p>
   <p><strong>Tools/Skills:</strong> Regression, Scikit-learn, Data Analysis, Matplotlib, Data Preprocessing</p>
   <video class="project-video" controls>
@@ -146,5 +146,5 @@ Explore a curated list of AI, ML, and full-stack software projects focused on so
 
 ---
 
-🗂 **Browse all repositories:**  
+**Browse all repositories:**  
 <a href="https://github.com/Amidu-Dabor/ProjectsEnv.git" target="_blank">GitHub/ProjectsEnv</a>
