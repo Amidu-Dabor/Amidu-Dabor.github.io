@@ -64,7 +64,7 @@ author_profile: true
   <h2>Professional Summary</h2>
 
   <p>
-    Results-oriented <strong>Software Engineer, AI/ML Engineer, and Data Scientist</strong> with over 5 years of experience spanning telecom, ICT education, professional trainings, academic coursework, backend software development, and applied AI and machine learning. Proven ability to build scalable, intelligent systems using Python, SQL, Vectorstore, TensorFlow, Keras, Scikit-learn, FastAPI, and cloud platforms including GCP, AWS, Azure, Modal, Weights & Biases, and Gradio. Skilled in deploying ML models, full-stack development, and deriving insights from data to support business decisions. Proven ability to deliver high-impact solutions, hands-on problem-solving, and collaborate across technical and business teams to drive measurable impact.
+    I am a results-oriented <strong>Software Engineer, AI/ML Engineer, and Data Scientist</strong> with over 5 years of experience spanning telecom, ICT education, professional trainings/workshops, academic research/coursework, personal projects, backend software development, and applied AI and machine learning. Proven ability to build scalable, intelligent systems using Python, SQL, Vectorstore, TensorFlow, Keras, Scikit-learn, FastAPI, and cloud platforms including GCP, AWS, Azure, Modal, Weights & Biases, and Gradio. Skilled in deploying ML models, full-stack development, and deriving insights from data to support business decisions. Proven ability to deliver high-impact solutions, hands-on problem-solving, and collaborate across technical and business teams to drive measurable impact.
   </p>
 </section>
 
@@ -72,7 +72,7 @@ author_profile: true
   <h2>Experience Highlights</h2>
   <ul>
     <li><strong>AI/ML Engineer – QCell SL:</strong> Developed backend automation and AI models for customer billing and service optimization.</li>
-    <li><strong>ICT Instructor – Competency Development Services:</strong> Delivered hands-on ICT training with 95% student satisfaction across multiple cohorts.</li>
+    <li><strong>IT Instructor & System Support - Competency Development Services:</strong> Delivered hands-on IT training with high student satisfaction across multiple cohorts.</li>
   </ul>
 </section>
 
