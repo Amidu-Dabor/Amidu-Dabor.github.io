@@ -79,7 +79,7 @@ author_profile: true
 
 <section>
   <h1>Contact Me</h1>
-  <p>I’m always open to impactful opportunities in <strong>AI/ML</strong>, <strong>software engineering</strong>, or <strong>data-driven innovation</strong>. Whether you're hiring, collaborating, or exploring ideas, feel free to connect.</p>
+  <p>I'm always open to impactful opportunities in <strong>AI/ML</strong>, <strong>software engineering</strong>, or <strong>data-driven innovation</strong>. Whether you're hiring, collaborating, or exploring ideas, feel free to connect.</p>
 </section>
 
 <section class="glass-card">
@@ -104,5 +104,5 @@ author_profile: true
 </section>
 
 <section>
-  <p style="text-align: center;">Thank you for visiting. Let’s build something exceptional together.</p>
+  <p style="text-align: center;">Thank you for visiting. Let's build something exceptional together.</p>
 </section>
