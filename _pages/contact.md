@@ -78,26 +78,26 @@ author_profile: true
 </style>
 
 <section>
-  <h1>📬 Contact Me</h1>
+  <h1>Contact Me</h1>
   <p>I’m always open to impactful opportunities in <strong>AI/ML</strong>, <strong>software engineering</strong>, or <strong>data-driven innovation</strong>. Whether you're hiring, collaborating, or exploring ideas, feel free to connect.</p>
 </section>
 
 <section class="glass-card">
   <!-- Left Column -->
   <div class="glass-column">
-    <h2>🤝 Let’s Connect</h2>
+    <h2>Let’s Connect</h2>
     <ul class="contact-list">
-      <li>📧 <strong>Email:</strong> <a href="mailto:daboramidu93@gmail.com">daboramidu93@gmail.com</a></li>
-      <li>📞 <strong>Phone:</strong> <a href="tel:+254795455796">+254 795 455 796</a></li>
-      <li>💼 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/adabor/" target="_blank">linkedin.com/in/adabor</a></li>
-      <li>🐙 <strong>GitHub:</strong> <a href="https://github.com/Amidu-Dabor" target="_blank">github.com/Amidu-Dabor</a></li>
-      <li>📁 <strong>Resume:</strong> <a href="/resume/">View Resume</a></li>
+      <li><strong>Email:</strong> <a href="mailto:daboramidu93@gmail.com">daboramidu93@gmail.com</a></li>
+      <li><strong>Phone:</strong> <a href="tel:+254795455796">+254 795 455 796</a></li>
+      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/adabor/" target="_blank">linkedin.com/in/adabor</a></li>
+      <li><strong>GitHub:</strong> <a href="https://github.com/Amidu-Dabor" target="_blank">github.com/Amidu-Dabor</a></li>
+      <li><strong>Resume:</strong> <a href="/resume/">View Resume</a></li>
     </ul>
   </div>
 
   <!-- Right Column -->
   <div class="glass-column coming-soon">
-    <h2>📝 Contact Form</h2>
+    <h2>Contact Form</h2>
     <p>Coming soon: A direct messaging form to connect with me securely and conveniently.</p>
     <p>This space will allow you to submit your name, email, and message—without leaving the page.</p>
   </div>
