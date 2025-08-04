@@ -73,11 +73,12 @@ With over 5 years of multidisciplinary experience spanning telecommunications, I
 <section class="highlight-block">
   <h2>Professional Background</h2>
   <ul>
-    <li><strong>AI/Machine Learning & Data Science - Academic Coursework, Professional Trainings/Workshops & Personal Projects – United States International University - Africa:</strong>
+    <li>
+      <strong>AI/Machine Learning & Data Science - Academic Coursework, Professional Trainings/Workshops & Personal Projects – United States International University - Africa:</strong>
       <ul>
         <li>Developed and deployed a FastAPI-based regression model to predict housing prices, integrating preprocessing, inference, and RESTful response delivery for real-time predictions.</li>
         <li>Designed and deployed BERT-based semantic similarity models using Hugging Face Transformers; achieved 73%+ accuracy by applying cosine similarity on [CLS] embeddings.</li>
-        <li>Developed an AI RAG Assistant that delivers context-aware academic support using LangChain and vector-based retrieval./li>
+        <li>Developed an AI RAG Assistant that delivers context-aware academic support using LangChain and vector-based retrieval.</li>
         <li>Conducted MLOps experiments with Weights & Biases, tracking training metrics, hyperparameters, and model performance to ensure traceability and reproducibility.</li>
         <li>Created predictive analytics models for customer purchase behaviour (conversion rate) and click-through rate (CTR) in social network ads, enabling targeted marketing strategies.</li>
         <li>Developed a cancer diagnosis classifier using XGBoost for binary tumor classification (malignant vs. benign).</li>
@@ -88,7 +89,8 @@ With over 5 years of multidisciplinary experience spanning telecommunications, I
         <li>Designed interactive dashboards with Power BI and Tableau for hotel management and to visualize HR workforce metrics, salaries, and operational KPIs.</li>
       </ul>
     </li>
-    <li><strong>Assistant IT/Convergent Billing Systems (CVBS) Engineer – QCell SL Ltd:</strong>
+    <li>
+      <strong>Assistant IT/Convergent Billing Systems (CVBS) Engineer – QCell SL Ltd:</strong>
       <ul>
         <li>Optimized service delivery by automating SFTP file detection and retrieval using Python and Cron jobs, demonstrating strong programming skills and a foundation for scalable algorithm development.</li>
 <li>Ensured 99.99% network uptime through proactive monitoring and prompt escalation of critical issues, reflecting robust analytical and problem-solving abilities essential for managing high-performance systems.</li>
@@ -96,7 +98,8 @@ With over 5 years of multidisciplinary experience spanning telecommunications, I
 <li>Delivered reliable customer service and support for thousands of subscribers, illustrating effective communication and cross-functional collaboration skills.</li>
       </ul>
     </li>
-    <li><strong>IT Trainer & System Support Engineer – Competency Development Services (CDS):</strong>
+    <li>
+      <strong>IT Trainer & System Support Engineer – Competency Development Services (CDS):</strong>
       <ul>
         <li>Enhanced student engagement and digital literacy through practical, interactive IT training, leveraging modern technological tools to foster analytical and technical skills.</li>
 <li>Maintained 99.9% device uptime through proactive IT support, underscoring strong attention to detail and problem-solving capabilities.</li>
