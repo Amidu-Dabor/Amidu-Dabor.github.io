@@ -51,7 +51,7 @@ With over 5 years of multidisciplinary experience spanning telecommunications an
 <section class="highlight-block">
   <h2>My Expertise</h2>
   <ul>
-    <li><strong>Artificial Intelligence & Generative AI:</strong> Development and fine-tuning of LLM-based systems, optimization, RAG workflows, and responsible deployment using <em>TensorFlow, Keras, LangChain, Hugging Face, Python</em>.</li>
+    <li><strong>Artificial Intelligence & Generative AI:</strong> Development and fine-tuning of LLM-based systems, optimization, RAG workflows, Scikit-learn, and responsible deployment using <em>TensorFlow, Keras, LangChain, Hugging Face, Python</em>.</li>
     <li><strong>Backend Engineering & DevOps:</strong> Building RESTful APIs, microservices, and automation pipelines with <em>Django, Flask, Docker, GitHub Actions, CI/CD</em> and infrastructure on <em>AWS, Azure</em>.</li>
     <li><strong>Data Science & Predictive Analytics:</strong> End-to-end pipelines for data preparation, exploratory analysis, and predictive modeling using <em>Pandas, Scikit-learn, XGBoost, Tableau</em>.</li>
     <li><strong>Cloud-Native & Cross-Platform Solutions:</strong> Designing serverless architectures and building modern apps using <em>Flutter, JavaScript, R</em>, and DevOps tools like <em>Terraform, Ansible, ARM templates</em>.</li>
