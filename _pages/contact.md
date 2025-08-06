@@ -99,7 +99,6 @@ author_profile: true
   <div class="glass-column coming-soon">
     <h2>Contact Form</h2>
     <p>Coming soon: A direct messaging form to connect with me securely and conveniently.</p>
-    <p>This space will allow you to submit your name, email, and message, without leaving the page.</p>
   </div>
 </section>
 
