@@ -74,26 +74,26 @@ With over 5 years of multidisciplinary experience spanning telecommunications, I
   <h2>Professional Background</h2>
   <ul>
     <li>
-      <strong>AI/Machine Learning & Data Science - Academic Coursework, Professional Trainings/Workshops & Personal Projects – United States International University - Africa:</strong>
+      <strong>AI/ML Engineer & Applied Data Science Specialist - Independent Projects, Academic Research, and Professional Development – United States International University - Africa:</strong>
       <ul>
-        <li>Developed and deployed a FastAPI-based regression model to predict housing prices, integrating preprocessing, inference, and RESTful response delivery for real-time predictions.</li>
-        <li>Designed and deployed BERT-based semantic similarity models using Hugging Face Transformers; achieved 73%+ accuracy by applying cosine similarity on [CLS] embeddings.</li>
-        <li>Developed an AI RAG Assistant that delivers context-aware academic support using LangChain and vector-based retrieval.</li>
-        <li>Conducted MLOps experiments with Weights & Biases, tracking training metrics, hyperparameters, and model performance to ensure traceability and reproducibility.</li>
-        <li>Created predictive analytics models for customer purchase behaviour (conversion rate) and click-through rate (CTR) in social network ads, enabling targeted marketing strategies.</li>
-        <li>Developed a cancer diagnosis classifier using XGBoost for binary tumor classification (malignant vs. benign).</li>
-        <li>Built an autonomous multi-agent deal finder with real-time RSS feed alerts for dynamic opportunity tracking (best deals).</li>
-        <li>Designed an LLM-based source-to-source code translator for optimizing software performance across programming languages.</li>
-        <li>Built a Django + JavaScript web app for managing academic support tickets, including query logging and resolution tracking.</li>
-        <li>Analyzed startup profitability with linear regression to uncover investment-impact patterns and financial correlations.</li>
-        <li>Designed interactive dashboards with Power BI and Tableau for hotel management and to visualize HR workforce metrics, salaries, and operational KPIs.</li>
+        <li>Built and deployed a FastAPI regression model for real-time housing price prediction with integrated preprocessing and RESTful inference.</li>
+  <li>Delivered real-time academic assistance by developing a context-aware AI RAG and Study Assistant using LangChain and vector-based retrieval techniques.</li>
+  <li>Achieved 73%+ accuracy in semantic similarity detection using BERT ([CLS] embeddings + cosine similarity) with Hugging Face Transformers.</li>
+  <li>Tracked model performance and training metrics by running reproducible MLOps experiments with Weights & Biases.</li>
+  <li>Developed a Django-JavaScript web app to manage academic support tickets, enabling query logging and resolution tracking.</li>
+  <li>Achieved 96.7% accuracy in diagnosing breast cancer by building an XGBoost classifier for malignant vs. benign tumor detection.</li>
+  <li>Achieved 95% accuracy predicting customer conversions and Click-Through-Rates (CTR) using Kernel SVM, driving targeted marketing strategies in social network ads.</li>
+  <li>Designed an LLM-powered source-to-source code translator to optimize performance across languages (e.g., Python → C++).</li>
+  <li>Built an autonomous multi-agent deal finder to track best offers via real-time RSS alerts.</li>
+  <li>Built interactive dashboards in Power BI and Tableau to visualize hotel KPIs and HR metrics, driving data-informed decisions.</li>
+  <li>Identified financial trends and investment-impact patterns in startup data using linear regression analysis.</li>
       </ul>
     </li>
     <li>
       <strong>Assistant IT/Convergent Billing Systems (CVBS) Engineer – QCell SL Ltd:</strong>
       <ul>
         <li>Optimized service delivery by automating SFTP file detection and retrieval using Python and Cron jobs, demonstrating strong programming skills and a foundation for scalable algorithm development.</li>
-<li>Ensured 99.99% network uptime through proactive monitoring and prompt escalation of critical issues, reflecting robust analytical and problem-solving abilities essential for managing high-performance systems.</li>
+<li>Maintained five nines (99.999%) network availability through proactive monitoring and prompt escalation of critical issues, reflecting robust analytical and problem-solving abilities essential for managing high-performance systems.</li>
 <li>Integrated a Subscriber Data Configuration (SDC) device with an ECR system to enhance data management and regulatory compliance, providing experience with meticulous data integration techniques relevant to predictive modelling.</li>
 <li>Delivered reliable customer service and support for thousands of subscribers, illustrating effective communication and cross-functional collaboration skills.</li>
       </ul>
@@ -102,7 +102,7 @@ With over 5 years of multidisciplinary experience spanning telecommunications, I
       <strong>IT Trainer & System Support Engineer – Competency Development Services (CDS):</strong>
       <ul>
         <li>Enhanced student engagement and digital literacy through practical, interactive IT training, leveraging modern technological tools to foster analytical and technical skills.</li>
-<li>Maintained 99.9% device uptime through proactive IT support, underscoring strong attention to detail and problem-solving capabilities.</li>
+<li>Maintained four nines (99.99%) device uptime through proactive IT support, underscoring strong attention to detail and problem-solving capabilities.</li>
 <li>Refined the ICT curriculum through continuous updates and the integration of current technology practices, supporting collaborative development and a data-driven approach to educational innovation.</li>
       </ul>
     </li>
