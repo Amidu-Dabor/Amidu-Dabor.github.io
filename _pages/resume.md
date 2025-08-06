@@ -55,7 +55,7 @@ author_profile: true
 
   <p>Looking to collaborate or hire? Download my resume or explore my background below.</p>
 
-  <a href="../assets/files/CV_AmiduDabor2.pdf" class="btn--primary" target="_blank" download>Download PDF</a>
+  <a href="../assets/files/CV_AmiduDabor.pdf" class="btn--primary" target="_blank" download>Download PDF</a>
 </section>
 
 <hr>
@@ -64,7 +64,7 @@ author_profile: true
   <h2>Professional Summary</h2>
 
   <p>
-    I am a results-oriented <strong>Software Engineer, AI/ML Engineer, and Data Scientist</strong> with over 5 years of experience spanning telecom, ICT education, professional trainings/workshops, academic research/coursework, personal projects, backend software development, and applied AI and machine learning. Proven ability to build scalable, intelligent systems using Python, SQL, Vectorstore, TensorFlow, Keras, Scikit-learn, FastAPI, and cloud platforms including GCP, AWS, Azure, Modal, Weights & Biases, and Gradio. Skilled in deploying ML models, full-stack development, and deriving insights from data to support business decisions. Proven ability to deliver high-impact solutions, hands-on problem-solving, and collaborate across technical and business teams to drive measurable impact.
+    I am a results-oriented <strong>Software Engineer, AI/ML Engineer, and Data Scientist</strong> with over 5 years of experience spanning telecom, ICT education, complemented by hands-on professional projects and specialized trainings, large-scale software engineering, backend software development, and applied machine learning. Proven ability to build scalable, intelligent systems using Python, SQL, Vectorstore, TensorFlow, Keras, Scikit-learn, FastAPI, and cloud platforms including GCP, AWS, Azure, Modal, Weights & Biases, and Gradio. Skilled in deploying ML models, full-stack development, and deriving insights from data to support business decisions. Proven ability to deliver high-impact solutions, hands-on problem-solving, and collaborate across technical and business teams to drive measurable impact.
   </p>
 </section>
 
