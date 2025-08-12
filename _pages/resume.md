@@ -64,7 +64,7 @@ author_profile: true
   <h2>Professional Summary</h2>
 
   <p>
-    I am a results-oriented <strong>Software Engineer and AI/Machine Learning specialist</strong> with over 2 years of experience spanning telecom, ICT education, complemented by 2+ years of hands-on professional projects and specialized trainings, large-scale software engineering, backend software development, and applied machine learning. Proven ability to build scalable, intelligent systems using Python, SQL, Vectorstore, TensorFlow, Keras, Scikit-learn, FastAPI, and cloud platforms including GCP, AWS, Azure, Modal, Weights & Biases, and Gradio. Skilled in deploying ML models, full-stack development, and deriving insights from data to support business decisions. Proven ability to deliver high-impact solutions, hands-on problem-solving, and collaborate across technical and business teams to drive measurable impact.
+    I am a results-oriented <strong>Software Engineer and AI/Machine Learning specialist</strong> with over 2 years of experience in telecom, ICT education, complemented by 2+ years of hands-on professional projects and specialized trainings, large-scale software engineering, backend software development, and applied machine learning. Proven ability to build scalable, intelligent systems using Python, SQL, Vectorstore, TensorFlow, Keras, Scikit-learn, FastAPI, and cloud platforms including GCP, AWS, Azure, Modal, Weights & Biases, and Gradio. Skilled in deploying ML models, full-stack development, and deriving insights from data to support business decisions. Proven ability to deliver high-impact solutions, hands-on problem-solving, and collaborate across technical and business teams to drive measurable impact.
   </p>
 </section>
 
